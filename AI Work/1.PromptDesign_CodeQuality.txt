@@ -1,0 +1,41 @@
+Code = 
+nums = [3,2,4]
+target = 6
+output=[]
+dict={}
+
+
+
+# Dictionary stores all unmatches , matches gets printed in array
+# {7:0, = Element and Dict[7]
+#  2:1, <> All Dict Comparison
+#  -2:2 <>
+#  -4:3 <>
+
+for i in range(0,len(nums)):
+    if nums[i] in dict:
+      output.append(i)
+      output.append(dict[nums[i]])
+      print('dict If',dict)
+    else:
+      dict[target-nums[i]]=i
+      print('dict Else',dict)
+
+
+
+
+print(output)
+
+Criteria = I reached a solution within 15 mins , Language syntax can be partially ignored 
+unless it ll change the way code works 
+
+Ques = 
+Please Rate my above written [Code].
+Give me rating out of 5 with respect to interviews. 
+Give Time complexity 
+Give Space complexity 
+Also list down Coder's stregths and weaknesses 
+Add Comments for the code , dont change anything in the code 
+
+
+
