@@ -1,0 +1,8 @@
+Content = 
+
+[]
+Ques = 
+Please rewrite the content in 100 words.
+
+
+

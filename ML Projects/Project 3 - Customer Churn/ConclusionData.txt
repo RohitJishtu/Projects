@@ -1,0 +1,33 @@
+#Step 11 : Conclusion Ideas 
+
+
+# Feature Importance 
+
+# 0	Total eve charge	0.076514
+# 1	Customer service calls	0.209548
+# 2	Total day minutes	0.267579
+# 3	Total day charge	0.094181
+# 4	Total eve minutes	0.094500
+# 5	Total intl charge	0.022639
+# 6	Total day calls	0.004263
+# 7	Total intl calls	0.082983
+# 8	Total night minutes	0.042083
+# 9	Total intl minutes	0.105711
+
+
+
+# Results on Test data1
+# Accuracy: 0.7883895131086143
+# Precision: 0.38961038961038963
+# Recall: 0.759493670886076
+# F1 Score: 0.5150214592274679
+# AUC: 0.7764501321463347
+
+
+# Results on Unseen Data 
+
+# Accuracy: 0.7841079460269865
+# Precision: 0.3675675675675676
+# Recall: 0.7157894736842105
+# F1 Score: 0.4857142857142857
+# AUC: 0.755622009569378

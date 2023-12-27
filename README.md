@@ -9,3 +9,9 @@ With 12 years in the dynamic realm of IT and analytics, I joyfully unravel the c
 In the era of AI dominance, my passion extends to using and tuning Language Model (LLM) solutions for business challenges. While coding fascinates me, I humbly acknowledge I'm far from being an expert. Beyond data, I'm driven by an eternal optimism and a creative problem-solving spirit, exploring realms of literature, travel, and philosophy during my leisure. 
 
 Excited to infuse my expertise to all repo readers.
+
+
+Profile 
+
+Linkedin :https://www.linkedin.com/in/rohit-jishtu/
+Resume :https://drive.google.com/file/d/1oD8nMYqI6dDQw6rci6Bi7II_8ViAjSBH/view?usp=drive_link
