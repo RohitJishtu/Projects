@@ -14,4 +14,7 @@ Excited to infuse my expertise to all repo readers.
 Profile 
 
 Linkedin :https://www.linkedin.com/in/rohit-jishtu/
-Resume :https://drive.google.com/file/d/1oD8nMYqI6dDQw6rci6Bi7II_8ViAjSBH/view?usp=drive_link
+
+
+Resume :https://drive.google.com/file/d/11ONh6xI0z3cMJtvIW0uZO_-YCkx0iv9r/view?usp=drive_link
+
