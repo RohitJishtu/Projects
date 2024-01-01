@@ -1,0 +1,19 @@
+
+Data=[
+	channel_type	highest_monthly_earnings	VideoViewsRatio
+0	Animals	0.0	49278.790690
+1	Comedy	109800.0	22740.075230
+2	Comedy	226100.0	106022.361100
+3	Comedy	272600.0	26088.685840
+4	Comedy	287500.0	41226.344670
+...	...	...	...
+219	Tech	53000.0	25511.134220
+220	Tech	209300.0	36069.124710
+221	Tech	335800.0	18205.599120
+222	Tech	354500.0	18239.936495
+223	Tech	670800.0	9340.174950
+]
+
+
+Ques= Give me code in Python for the above data where I need a scatter 
+Graph between highest_monthly_earnings and VideoViewsRatio and it should be divided by categories as colors 
