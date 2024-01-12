@@ -1,58 +1,47 @@
 Ques =[
-Convert production schedule: write a function to convert compressed production schedule code to decompressed ones.
-input: compressed = '3[A]2[3[B]]C'
-output: 'AAABBBBBBC':
+# For a given Sales table, compare the percentage of total sales on the first and last working day of the month. 
+
+
+# Sales 
+# SNo productID Day SalesAmt
+# 1    P1       1     30 
+# 1    P2       1     40 
+# 2    P1       2    20 
+# 3    P2       3    20 
+# 4    P1       4    20 
+# 4    P2       4    70 
+
+
+
+# product     Day1%Age          DayLast%Age
+# P1          (30/70)*100      (20/90)*100
+
 ]
 
 
 
-Code = 
-            [
-            compressed = '3[A]  2[3[B]]  C'
-# output: 'AAABBBBBBC'
+Code = [
 
-import string
-# Number comes and character after that , we print the character number times
-# we store character : Number in dictionary , and run to print
+[
+with Date as 
+(Select '1' StartDay,'30' EndDay  from DateDim ) 
 
-# ischar()
-# isnum()
-# A:3
-# B:3*2
-# C:1
-
-
-# 3 Comparison of special chars
-# 10 numeric comparisons
-
+Select 
+a.productID , 
+(Sum(case when a.productID=b.productID and b.Day=a.StartDay then b.SalesAmt else null end )/Sum(b.SalesAmt))*100  as "Day1%Age",
+(Sum(case when a.productID=b.productID and b.Day=a.EndDay then b.SalesAmt else null end )/Sum(b.SalesAmt))*100   as "DayLast%Age"
+from(Select distinct product from Sales) a,
+Date 
+left join Sales b 
+on a.StartDay=b.Day
+or a.EndDay=b.Day
+group by all 
+]
 
 
-
-dict={}
-string=""
-num=1
-for i in compressed:
-    if ((i != '[') and (i!= ']')) and  (i!= ' '):
-      if i.isnumeric() == True:
-        i=int(i)
-        num=num*i
-        i=str(i)
-      else:
-        dict[i]=num
-        print('dict' ,dict)
-        num=1
-
-for i in dict:
-  var=i*dict[i]
-  string+=var
-
-print(string)
-
-            ]
 
 Criteria = [
-            I reached a solution within 15 mins , Language syntax can be partially ignored 
-            unless it ll change the way code works 
+            I reached a solution within 5-10 mins , Language syntax can be partially ignored unless it ll change the way code works 
            ]
 
 Ques = 
