@@ -1,8 +1,10 @@
 Content = 
+[
 
-[]
+]
 Ques = 
-Please rewrite the content in 100 words.
+Please rewrite the [content] , dont change any language please check grammer and spellings 
+if any and if any sentence is ambiguous please correct that .
 
 
 
