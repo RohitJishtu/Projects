@@ -1,4 +1,3 @@
-Ques [
 # Ques 1
 
 
@@ -16,9 +15,7 @@ Ques [
 
 
 
-]
 
-code =[
 matches = [[2,3],
            [1,3],
            [5,4],
@@ -61,22 +58,5 @@ def Insertion(matches):
   return output     
 
 
-]
 
-
-Ignore =[ Please ignore #]
-
-Criteria = [
-            I reached a solution within 5-10 mins , Language syntax can be partially ignored unless it ll change the way code works 
-           ]
-
-Ques = 
-        [
-          Please Rate my above written [Code].
-          Give me rating out of 5 with respect to interviews. 
-          Give Time complexity 
-          Give Space complexity 
-          Also list down Coder's stregths and weaknesses 
-          Add Comments for the code , dont change anything in the code 
-        ]
 
