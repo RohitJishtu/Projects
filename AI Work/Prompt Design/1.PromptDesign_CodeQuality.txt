@@ -1,65 +1,52 @@
 Ques [
-# Ques 1
+# 46. Permutations
+# Medium
+# Topics
+# Companies
+# Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
+ 
 
-# 2225. Find Players With Zero or One Losses
-# Input: 
-# matches = [[2,3],[1,3],[5,4],[6,4]]
-# Output: [[1,2,5,6],[]]
-# Explanation:
-# Players 1, 2, 5, and 6 have not lost any matches.
-# Players 3 and 4 each have lost two matches.
-# Thus, answer[0] = [1,2,5,6] and answer[1] = [].
+# Example 1:
 
-# answer[0] is a list of all players that have not lost any matches.
-# answer[1] is a list of all players that have lost exactly one match.
+# Input: nums = [1,2,3]
+# Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+# Example 2:
 
+# Input: nums = [0,1]
+# Output: [[0,1],[1,0]]
+# Example 3:
 
-
+# Input: nums = [1]
+# Output: [[1]]
 ]
 
 code =[
-matches = [[2,3],
-           [1,3],
-           [5,4],
-           [6,7]
-          ]
-# Output: [[1,2,5,6],[]]
-# output=[[1,2],[3,4]]
+nums = [1,2,3]
+def MainFunction(nums):
+    output=[]
+    def CreatePermutation(nums,index,output):
+      tempoutput =[]
+      availablelist= [x for x in nums if x != index]
+      tempoutput.append(index)
+      for i in range(len(availablelist)):
+          tempoutput.append(availablelist[i])
+          print('tempoutput ',tempoutput)
+          print('output ',tempoutput)
+          if  len(tempoutput) == len(nums):
+              if tempoutput not in output:
+                output.append(tempoutput)
+                CreatePermutation(sorted(availablelist,reverse=True),index,output)
+              else:
+                print('Am I here')
+                tempoutput.pop(1)
+      print('returning output is ',output)
+      return output
 
-output=[None,None]
 
-# Step 1 : result array 
-# Step 2:Iterate through the array 
-# > Insert in result [0] : Post checking in result 2 
-# > Insert in result [1] : if the data is not in result 2 
-#         if its there : Then I remove that 
-
-
-def Insertion(matches):
-  output=[[],[]]
-  removelist=[]
-  for i in range(len(matches)):
-        for j in range(2):
-          print('i,j',i,j)
-          iterator = matches[i][j] 
-          if j==0:
-            print('len of output',len(output))
-            if len(output)>1 and iterator not in output[1]:
-              output[0].append(iterator)
-            elif iterator not in output[1]:
-              output[0].append(iterator)
-
-          else:
-            print('output is ',output)
-            if iterator in output[1]:
-              output[1].remove(iterator)
-              removelist.append(iterator)
-            elif (iterator not in removelist):
-              output[1].append(iterator)
-           
-  return output     
-
+    for i in nums:
+       output.append(CreatePermutation(nums,i,output))
+    return output
 
 ]
 
