@@ -1,52 +1,51 @@
 Ques [
-# 46. Permutations
+  
+  # 56. Merge Intervals
 # Medium
 # Topics
 # Companies
-# Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+# Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
- 
 
 # Example 1:
 
-# Input: nums = [1,2,3]
-# Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+# Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+# Output: [[1,6],[8,10],[15,18]]
+# Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 # Example 2:
 
-# Input: nums = [0,1]
-# Output: [[0,1],[1,0]]
-# Example 3:
+# Input: intervals = [[1,4],[4,5]]
+# Output: [[1,5]]
+# Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
-# Input: nums = [1]
-# Output: [[1]]
 ]
 
 code =[
-nums = [1,2,3]
-def MainFunction(nums):
-    output=[]
-    def CreatePermutation(nums,index,output):
-      tempoutput =[]
-      availablelist= [x for x in nums if x != index]
-      tempoutput.append(index)
-      for i in range(len(availablelist)):
-          tempoutput.append(availablelist[i])
-          print('tempoutput ',tempoutput)
-          print('output ',tempoutput)
-          if  len(tempoutput) == len(nums):
-              if tempoutput not in output:
-                output.append(tempoutput)
-                CreatePermutation(sorted(availablelist,reverse=True),index,output)
-              else:
-                print('Am I here')
-                tempoutput.pop(1)
-      print('returning output is ',output)
-      return output
+intervals =  [[1,4],[4,5]]
+output=[]
+min=intervals[0][0]
+max=intervals[0][1]
 
 
-    for i in nums:
-       output.append(CreatePermutation(nums,i,output))
-    return output
+intervals= sorted(intervals)
+
+for i,j in intervals:
+
+  if i==min and j==max:
+    output.append((i,j))
+
+  elif i > max:
+    output.append((i,j))
+    max=j 
+    min=i
+  
+  else:
+    output.pop()
+    output.append((min,j))
+
+
+print(output)
+
 
 ]
 
