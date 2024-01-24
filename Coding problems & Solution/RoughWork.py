@@ -4,20 +4,72 @@
 
 
 2. Longest Common Subsequence: https://lnkd.in/gn_niUMG
-
-
-
-
 3. Permutations: https://lnkd.in/gkfWBuk8
+5. Merge Intervals: https://lnkd.in/gbFQ-BX9
 
+===============19 Jan ==============================
+
+----------------
+
+
+In a given list, find the counts of the minimum value.
+
+List = [5, 2, 8, 1, 5, 0, 3, 1, 7, 2, 5, 4]
+
+
+#--------------------------------#----------------#
+
+Given a list, remove duplicate elements and return the modified list.
+
+List = [10, 20, 30, 10, 40, 50, 20, 60]
+
+#--------------------------------#----------------#
+
+Calculate the sum of odd numbers in a list.
+
+List = [3, 6, 8, 2, 5, 7, 9, 4, 1]
+
+#--------------------------------#----------------#
+
+Merge two lists into a single list and sort them in descending order.
+
+List1 = [15, 8, 12, 10]
+
+List2 = [7, 20, 18, 25]
+
+#--------------------------------#----------------#
+
+Find the product of all the elements in a given list.
+
+List = [2, 3, 5, 7, 10]
+
+
+#--------------------------------#----------------#
+
+Count characters in a string and create a dictionary with character counts.
+
+my_string = "hellothere"
+
+
+#--------------------------------#----------------#
+
+Concatenate the strings from the list based on the number of occurrences of the dictionary keys, and return the resulting string.
+
+my_list = ["apple", "orange", "banana", "grape"]
+my_dict = {"a": 0, "o": 2, "e": 1}
+
+
+#--------------------------------#----------------#
+
+Sort a list of strings based on the length of each string, and store the result in a dictionary.
+
+word_list = ["python", "java", "c", "javascript", "ruby"]
 
 # 46. Permutations
 # Medium
 # Topics
 # Companies
 # Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
-
- 
 
 # Example 1:
 

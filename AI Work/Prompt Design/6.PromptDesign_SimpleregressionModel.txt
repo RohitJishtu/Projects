@@ -1,0 +1,17 @@
+
+DataSameple=[
+The Prisoner's Gold (The Hunters 3)	Chris Kuzneski	Paperback,– 10 Mar 2016	4.0 out of 5 stars	8 customer reviews	THE HUNTERS return in their third brilliant no...	Action & Adventure (Books)	Action & Adventure	220.00
+1	Guru Dutt: A Tragedy in Three Acts	Arun Khopkar	Paperback,– 7 Nov 2012	3.9 out of 5 stars	14 customer reviews	A layered portrait of a troubled genius for wh...	Cinema & Broadcast (Books)	Biographies, Diaries & True Accounts	202.93
+2	Leviathan (Penguin Classics)	Thomas Hobbes	Paperback,– 25 Feb 1982	4.8 out of 5 stars	6 customer reviews	"During the time men live without a common Pow...	International Relations	Humour	299.00
+]
+
+ReturnFormat=[
+Code to Clean the data and convert Categorical features to Numericals 
+Code to create linear regression by random forest 
+code to measure performance of linear regression 
+]
+
+Ques =
+[
+Please create a linear regression code in python based on above books Store data where Target is Price
+]
