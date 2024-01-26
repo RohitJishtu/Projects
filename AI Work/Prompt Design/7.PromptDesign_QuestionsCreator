@@ -1,0 +1,28 @@
+Context=[We are creating a questions template for Interview AI/Ml Technical]
+
+Data =[
+Assume an attendance dataset with the following fields – student_id, date, attendance flag (1/0) ]
+
+
+Ques=
+[Derive the following additional features at the student + date level 
+
+> days since last attended 
+
+> no of days attended in the month 
+
+> no of days attended in the previous month 
+
+> average monthly attendance (no of days) in last 12 months ]
+
+Safety=
+[data should be in text format no fancy formats]
+
+What I need = 
+[
+I need 5 difficult scenarious based questions For Each Questions I need sample results
+I need complexity levels also
+I need to create around 15 questions like these where complexity goes from medium difficulity to hard Difficuly and mention complexity]
+
+ 
+
