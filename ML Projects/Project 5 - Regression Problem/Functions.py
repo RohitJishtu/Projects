@@ -55,7 +55,6 @@ def CalBasicStats(Source_DF,type):
         
         #newdf['DataSourceName']=[name]
             newdf['ColumnName']=[i]
-
             newdf['AllCounts'] = Traversedf[i].size
             newdf['NotNullCounts'] = Traversedf[i].count()
             newdf['UniqueCounts'] = Traversedf[i].nunique()
