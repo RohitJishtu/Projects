@@ -1,0 +1,152 @@
+1.
+You are training a linear regression model on a representative sample in order to predict house prices. Performance tests suggest that the model
+has an issue of high estimator bias in combination with low estimator variance. What action below is likely to solve the high bias issue?
+A)
+Collect more labeled data.
+B)
+Add higher-order polynomial terms.
+C)
+Increase the weights on regularization terms.
+D)
+Use a subsample of the da
+
+
+Answer : B 
+
+
+2.You performed a linear fit on a dataset with two variables, x1 and x2 . The p-value for x1 is 0.01 and that for x2 is 0.1. Which statement is false?
+
+A)
+p-value is the probability to find the observed or more extreme value for the test statistic given that the null hypothesis is false.
+B)
+p-value is the probability to find the observed or more extreme value for the test statistic given that the null hypothesis is true.
+C)
+Variable x2 could have no effect at all on the response variable.
+D)
+The fitting coefficient of variable x1 is generally considered statistically significant.
+
+
+Answer : A
+
+
+3.
+Which metric is not used for evaluating the performance of a regression model?
+
+A)
+F1-score
+B)
+AIC
+C)
+R-squared value
+D)
+RMSE
+
+Answer : A
+
+
+4.
+In the US, the number of new cases of cancer is 454.8 per 100,000 men and women per year (based on 2008-2012 cases, National Cancer
+Institute). You have built a model to support the detection of cancer cases. The model accuracy amounts to 99.55%, however it was unable to
+correctly detect a single case of cancer. Which of the following statements is true?
+A)
+False negative rate of the model is 0.45%.
+B)
+Error rate of the model is 0.05%.
+C)
+Recall of the model is 0.45%.
+D)
+Specificity of the model is 100%.
+
+Answer : D
+
+
+
+
+5.K-fold cross-validation means to split data into k subsets, and train models on k-1 subsets while leaving one set out for evaluation. In which of the
+following situations is cross validation generally unnecessary?
+
+A)
+Optimizing the depth of a decision tree for a random forest model.
+B)
+Reducing the dimensionality of data using PCA.
+C)
+Choosing the number of clusters for a k-means model.
+D)
+Determining weights for the regularization terms of ridge regression.
+
+Answer : B
+
+
+6.
+An online social media platform has asked you to develop a churn propensity model. You have built a boosted tree model with 500 trees and
+maximum depth of 50. The AUC value is 0.95 on training data, but only 0.5 on test data. To improve model performance on test data, which step
+would you recommend to try next?
+A)
+Reduce maximum tree depth.
+B)
+Increase number of trees.
+C)
+Reduce from 10-fold cross validation to 3-fold.
+D)
+Apply a logarithmic transformation to features that are not normally distributed.
+
+Answer : A
+
+7.
+You are working on a binary classification model, but the data set is imbalanced. I.e., the positive class is much smaller than the negative class.
+Which of the following methods is NOT used to tackle this problem?
+A)SMOTE
+B)Using class weights
+C)Undersampling the majority class
+D)L2 regularization
+
+
+Answer : B
+
+
+
+8.Which of the following loss functions is most sensitive to outlying data points?
+A)
+Mean Absolute Loss
+B)
+Huber Loss
+C)
+Mean squared loss
+D)
+Quantile loss
+
+
+Answer : C
+
+
+9.What is NOT one of the advantages of dimensionality reduction?
+A)
+It reduces the computational power needed to train a model
+B)
+It decreases the chance that the model will overfit the data
+C)
+It becomes easier to visualize highly dimensional data
+D)
+It increases the amount of information available to the model
+
+
+Answer : A
+
+
+10.We are playing a game of Russian Roulette. I put 3 bullets in a gun with six chambers, and I put the bullets all next to each other. I close the cylinder, I
+spin it, and I present you with two strategies:
+1. You fire the gun three times without spinning the cylinder in between
+2. You fire the gun three times, each time spinning the cylinder in between
+I flip an unbiased coin: if it is heads, you must follow strategy 1; if it is tails, you must follow strategy 2. What are your odds of survival?
+
+
+A)
+7/48
+B)
+5/16
+C)
+1/9
+D)
+5/19
+
+Answer A 
