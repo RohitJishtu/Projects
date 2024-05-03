@@ -68,3 +68,47 @@ def solution(candies):
 
 if __name__ == '__main__':
     print(solution([3, 4, 7, 7, 6, 6]))
+
+
+# Alternate solution Preparted in Plane 
+
+CandiesConter ={}
+candies = [80, 80, 1000000000, 80, 80, 80, 80, 80, 80, 123456789]
+giveaway=len(candies)//2
+giveaway
+
+for onecandy in candies:
+    if onecandy not in CandiesConter:
+        CandiesConter[onecandy]=1
+    else:
+        CandiesConter[onecandy]+=1
+CandiesCounter_List= sorted(CandiesConter.items(),reverse=True,key=lambda x:x[1])
+print(CandiesCounter_List)
+
+for Item in range(len(CandiesCounter_List)):
+   DictVal=CandiesConter[CandiesCounter_List[Item][0]]
+   print(f"PRE {Item} {len(CandiesCounter_List)=} {CandiesCounter_List[Item]=} {giveaway=} {DictVal=}")
+   
+   if giveaway==0:
+      break 
+   elif DictVal >giveaway :
+      giveaway = 0
+      CandiesConter[CandiesCounter_List[Item][0]]=DictVal-giveaway 
+   elif DictVal <giveaway:
+      giveaway=giveaway-(DictVal-1) 
+      CandiesConter[CandiesCounter_List[Item][0]]=1
+
+   elif DictVal ==giveaway and Item==len(CandiesCounter_List)-1:
+      giveaway=0
+      CandiesConter[CandiesCounter_List[Item][0]]=0
+   elif DictVal ==giveaway:
+      giveaway=1
+      CandiesConter[CandiesCounter_List[Item][0]]=1
+
+   print(f"POST {Item} {CandiesCounter_List[Item]=} {giveaway=} {DictVal=}")
+
+result=[]
+for i in CandiesConter.keys():
+   if CandiesConter[i]>0:
+      result.append(i)
+print('Final= ',result)
