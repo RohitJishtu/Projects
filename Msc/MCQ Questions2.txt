@@ -1,0 +1,95 @@
+Here are ten new questions in the same format, with the answer key provided at the end:
+
+You are training a neural network model and observe that it is overfitting the training data. Which action below is likely to reduce overfitting?
+A) Increase the number of neurons in each layer.
+B) Add dropout layers.
+C) Use a larger learning rate.
+D) Reduce the amount of training data.
+
+
+
+You performed a linear regression analysis and obtained an R-squared value of 0.85. Which of the following statements is true?
+A) 85% of the variance in the dependent variable is explained by the independent variables.
+B) 15% of the variance in the independent variables is explained by the dependent variable.
+C) The model perfectly predicts the dependent variable.
+D) The p-value of the model is 0.85.
+
+
+
+Which of the following is not a commonly used activation function in neural networks?
+A) Sigmoid
+B) ReLU
+C) Tanh
+D) Entropy
+
+
+
+You are evaluating the performance of a binary classification model using the F1-score. Which of the following statements is true?
+A) F1-score is the harmonic mean of precision and recall.
+B) F1-score is the arithmetic mean of precision and recall.
+C) F1-score is the geometric mean of precision and recall.
+D) F1-score is the sum of precision and recall.
+
+
+
+In a dataset with a large number of features, you decide to use Principal Component Analysis (PCA) for dimensionality reduction. What is a potential drawback of using PCA?
+A) PCA always increases the computational complexity.
+B) PCA assumes linear relationships between features.
+C) PCA can only be used for classification tasks.
+D) PCA increases the interpretability of the features.
+
+
+
+You are using k-means clustering to segment customers into different groups based on their purchasing behavior. Which of the following methods can help determine the optimal number of clusters (k)?
+A) Elbow method
+B) Silhouette score
+C) Cross-validation
+D) Both A and B
+
+
+
+Which of the following is not a tree-based ensemble method?
+A) Random Forest
+B) Gradient Boosting Machine
+C) AdaBoost
+D) K-Nearest Neighbors
+
+
+
+You are working with a time series dataset and want to make it stationary before applying machine learning algorithms. Which of the following techniques can be used to achieve stationarity?
+A) Differencing
+B) Moving Average
+C) Normalization
+D) One-Hot Encoding
+
+
+
+In the context of deep learning, what is the purpose of using a convolutional layer in a Convolutional Neural Network (CNN)?
+A) To reduce the number of parameters in the network.
+B) To capture spatial hierarchies in the data.
+C) To perform data augmentation.
+D) To prevent overfitting.
+
+ 
+
+You have developed a model to predict employee turnover and found that it has a high precision but low recall. What does this imply about your model?
+A) The model correctly identifies most of the employees who will leave.
+B) The model incorrectly identifies many employees who will stay.
+C) The model correctly identifies most of the employees who will stay.
+D) The model misses many employees who will leave.
+
+
+MyMarks = 9/10
+
+Answer Key:
+
+Answer: B
+Answer: A
+Answer: D
+Answer: A
+Answer: B
+Answer: D
+Answer: D
+Answer: A
+Answer: B
+Answer: D

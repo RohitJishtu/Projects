@@ -1,0 +1,105 @@
+What is a word embedding, and why is it important in NLP?
+
+a) A method for tokenizing text
+b) A way to encode words as vectors in a high-dimensional space
+c) A technique for parsing sentences
+d) A strategy for summarizing texts
+
+
+
+
+Which of the following is an unsupervised learning method used for topic modeling?
+
+a) Support Vector Machines (SVM)
+b) Latent Dirichlet Allocation (LDA)
+c) Conditional Random Fields (CRF)
+d) Gradient Boosting
+
+
+
+What does the term "BLEU score" refer to in the context of NLP?
+
+a) An algorithm for part-of-speech tagging
+b) A metric for evaluating machine translation
+c) A technique for text tokenization
+d) A method for entity recognition
+
+
+
+Which NLP technique involves predicting the likelihood of a sequence of words?
+
+a) Text classification
+b) Language modeling
+c) Named entity recognition
+d) Sentiment analysis
+
+
+
+In the context of neural networks, what is the main advantage of using Long Short-Term Memory (LSTM) networks for NLP tasks?
+
+a) They are simpler and faster to train than other models
+b) They can handle long-term dependencies better than traditional RNNs
+c) They require less data to achieve high performance
+d) They are less prone to overfitting
+
+
+
+What is BERT, and how does it differ from traditional word embeddings?
+
+a) A rule-based NLP system
+b) A context-aware embedding model that processes words in both directions
+c) A syntax tree parser
+d) A machine translation system
+
+
+Which of the following is a common method for evaluating the performance of a Named Entity Recognition (NER) system?
+
+a) Mean Squared Error
+b) BLEU score
+c) Precision, Recall, and F1-score
+d) ROC-AUC
+
+
+What is the primary purpose of the Attention mechanism in Transformer models?
+
+a) To reduce the dimensionality of the data
+b) To focus on different parts of the input sequence with varying levels of importance
+c) To encode categorical features
+d) To generate new text sequences
+
+
+In Transfer Learning for NLP, what does fine-tuning refer to?
+a) Pre-training a model on a large dataset and then adjusting it with a smaller, task-specific dataset
+b) Training a model from scratch for a specific task
+c) Adjusting hyperparameters during the training process
+d) Reducing the size of the training dataset to improve performance
+
+
+Which of the following describes the concept of "Word Sense Disambiguation" (WSD)?
+
+a) Determining the grammatical role of a word in a sentence
+b) Identifying the correct meaning of a word based on context
+c) Translating text from one language to another
+d) Generating a summary of a text
+
+
+
+8/10 
+
+Answer Key:
+b) A way to encode words as vectors in a high-dimensional space
+b) Latent Dirichlet Allocation (LDA)
+b) A metric for evaluating machine translation
+b) Language modeling
+b) They can handle long-term dependencies better than traditional RNNs
+b) A context-aware embedding model that processes words in both directions
+c) Precision, Recall, and F1-score
+b) To focus on different parts of the input sequence with varying levels of importance
+a) Pre-training a model on a large dataset and then adjusting it with a smaller, task-specific dataset
+b) Identifying the correct meaning of a word based on context
+
+
+
+
+
+
