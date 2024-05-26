@@ -1,91 +1,142 @@
 ------------------------------------------------
 MyProfile ={
-
-ROHIT JISHTU
+ ROHIT JISHTU
 STAFF MACHINE LEARNING ENGINEER
 Hyderabad, India • +91-81423-92758
-jishtu.rohit@gmail.com • 
-linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
-
-
-With a 12-year IT career, I excel in building data pipelines and end-to-end ML project orchestration, consistently delivering impactful results. Recognized for innovation in sales battlecards generation , lead prioritization, churn prediction, upselling optimization, and recommendation systems improvement.
+jishtu.rohit@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
+With a 12-year IT career, I excel in building data pipelines and end-to-end ML project orchestration, consistently delivering impactful results. Recognized for innovation in sales assist data generation , lead prioritization, churn prediction, business upsell optimization, and recommendation systems improvement.
 A programming and SQL devotee, along with being an avid reader, I bring an enduring optimism, eagerness to contribute and enthusiasm to your team.
-
-
 SKILLS & OTHER
-Tech Skills: Python, SQL, Data Warehousing & Analysis, Statistics & Machine Learning, Deep Learning, MLOps, Gen AI, NLP Platform: Azure ML, Snowflake, Databricks, Airflow, Tableau, GIT, Kubernetes, Scikit-Learn, Fiddler, TensorFlow, BERT Trainings & Certifications: Data Structure & Algo, Gen AI (GPT) ,Feature Engineering ,Storytelling ,Product Management
+Tech Skills: Python, SQL, Data Warehousing & Analysis, Statistics & Machine Learning, Deep Learning, MLOps, Gen AI, NLP Platform: Azure ML, Snowflake, Databricks, Airflow, Tableau, GIT, Kubernetes, Scikit-Learn, Fiddler, TensorFlow, BERT,Keras Trainings & Certifications: Data Structure & Algo, RAG Models ,Feature Engineering ,Data Storytelling ,Product Management
 KEY PROJECTS
-Feature Hub: Leading the development of a massive feature store with 50k+ features from 1000 tables and 100 data sources, handling TBs of data for data researchers.
-Lead Scoring : Pioneered and implemented an organization-wide lead scoring system for 5m leads , driving a $170 million revenue increase and achieving a 400% boost in lead-to-deal conversion.
-Generative AI Battle Cards : One stop shop , Strengthening sales reps with data-driven pitch materials, summarizing PDFs, interactions, and meeting notes for effective deal preparation for 250k key contacts , speeding up deal closure.
+AI Feature Hub: Driving the evolution of Feature Hub by integrating LLM and RAG-based methods to create advanced AI features. Managing a massive feature store with over 50k features derived from 1000 tables and 100 data sources, processing terabytes of data for data researchers.
+Lead Prioritisation : Pioneered and implemented an organization-wide lead scoring system for 5m leads , driving a $170 million revenue increase and achieving a 400% boost in lead-to-deal conversion.
+Generative AI Sales Battle Cards : One stop shop , Strengthening sales reps with data-driven pitch materials, summarizing PDFs, interactions, and meeting notes for effective deal preparation for 250k key contacts , speeding up deal closure.
 Customer Churn : Achieved a 20% reduction in customer churn for subscription services through our ML solution, saving millions by leveraging usage data. The current model boasts an impressive 80% precision and 70% recall.
-Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
-
-EDUCATION
+   Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
  Himachal Pradesh University, Shimla, IN Bachelor of Technology, Information Technology
+EDUCATION
+PROFESSIONAL EXPERIENCE
 2011
-
-Experience 
-Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN
-● A typical day looks like coding , writing queries and cleaning data , before researching and modeling ML solutions.
-On a better day we get the results approved by stakeholders and we deploy the model to production , experience
-relief. On a very hectic day , we are firefighting data quality problems , called “First line of defense” for the team.
-● Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes and Docker.
+ Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN
+● A typical day looks like coding , writing queries and cleaning data , before researching and modeling ML solutions. On a
+better day we get the results approved by stakeholders and we deploy the model to production , experience relief. On a
+very hectic day , we are firefighting data quality problems , called “First line of defense” for the team.
+● Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes , Docker & Databricks.
 ● Diving into Deep Learning , NLP and Transformers to devise solutions with advanced techniques.
 ● Leading the mentorship group for new Engineering recruits and creating a culture for talent to flourish.
 Data Engineer - Accenture, Pune, IN 2014 – 2017
-● Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw
-data to meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code to write the most efficient SQL Solution , and building my SQL muscles quite a bit.
-Data Engineer - Tech Mahindra, Bhubaneshwar, IN 2012 – 2014 ● This was an entry level job for me. I got trained in Data Warehousing and BI and started working with a US
-customer for generating BO reports. The first time I got to see the backend data model for a report , that's when I knew what I wanted to do.
-PROFESSIONAL EXPERIENCE
- 2018 – Present
+● Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw data to
+meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code to write the most efficient SQL Solution , and building my SQL muscles quite a bit.
+Data Engineer - Tech Mahindra, Bhubaneshwar, IN 2012 – 2014 ● This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating BO
+reports. Seeing the backend data model for the first time made me realize my career passion.
+2018 – Present
+
 }
 ------------------------------------
-JODecription = {
-Hot ITem Groep
-Hot ITem Groep
-Senior Machine Learning Engineer
-Amsterdam, Netherlands
-Employee
-IT
-Job Description
-(What you will be doing)
-As a Senior Machine Learning Engineer at Future Facts Conclusion you love to solve real-world problems with data & algorithms. You can bridge the gap between Data Scientists, Data Engineers & DevOps. Through using Machine Learning (ML), MLOps and Cloud technologies, you create valuable solutions for our customers.
+JODecription = {locations
+London
+time type
+Full time
+posted on
+Posted 2 Days Ago
+job requisition id
+JR303
+The Value of Active Minds
+ 
 
-You are at the center of productionizing our AI solutions and will coach, train and lead the team on the latest innovations in ML. Another important part of your role is orchestrating data pipelines for model training and prediction, industrialize and train ML algorithms and build high performance, low latency API's. It is key that your knowledge of code and CI/CD best practices is solid.
+About Jupiter
 
-Project examples
-At Dura Vermeer, a smart building concept has been set up in Azure by means of AI & IoT, in which occupancy rate and atmosphere are calculated and processed in real-time. This is crucial for the health of the company's employees.
-For a large waste processor we use computer vision and camera-wide inspection to detect the different waste flows and to find out how they can be optimized for processing.
-Who we are
-Future Facts Conclusion is part of the Hot ITem Group and specializes in AI solutions. We guide data-driven organizations in further growth by using the latest technology in the field of Artificial Intelligence, Machine Learning, Cloud Solutions and Internet of Things. With a team of highly qualified professionals, we realize sustainable impact for people, organizations and society.
+Jupiter is one of the UK’s leading investment management companies with just over 500 employees and £51.4 billion worth of assets under management (as at 30th June 2023). 
 
-Requirements
-(What we offer you)
-A gross salary between €4.000,- and - €6.000,- based on 40h per week
-A contract for an indefinite period with the possibility to work part-time
-A lease budget and bonus
-A company phone and laptop
-Internet and expenses allowance
-Sabbatical options and good pension insurance
-27 vacation days and 2 performance leave days
-A personal development plan and opportunities to expand knowledge through courses, training and education
-Hybrid working: control your own working hours, we offer you an easily accessible workplace in Amsterdam with a beautiful view of the IJ
-Weekly chair massage, gym, company boat, roof terrace and Danz Café where you can always have a chat with your colleagues
-Your talent
-A Master of Science or PhD in e.g. Computer Science or other STEM related fields
-3+ years experience as a Machine Learning- or Software Engineer
-Knowledge of Azure, AWS or Google Cloud platforms
-Experience with ML frameworks (e.g. Tensorflow and PyTorch), preferably on large scale projects
-Great understanding of Machine Learning and Deep Learning related concepts
-Hands-on programming skills in Python, experience with API design and the DevOps and CI/CD way of working
-Knowledge of big data processing tools, platforms and infrastructures such as Spark, PySpark, Kafka, AWS EMR, Databricks Linux, Docker, Kubernetes (nice to have)
-Experience with both SQL and NoSQL
-Be able to communicate complex concepts and make them understandable for technical and non-technical disciplines
-Knowledge of Dutch to some extent and have the willingness to learn it
+Jupiter provides investment services to individual and institutional investors through mutual funds (UK unit trusts, Luxembourg SICAVs and Dublin OEICs), separately managed accounts and sub-advised funds. Jupiter has experienced a period of international growth with offices open in EMEA, APAC and the US. 
+
+The majority of our employees are based in our London office located just minutes from Victoria station which provides stair-free access from both the Underground’s Victoria line and National Rail platforms, as well as limited road crossings to the Jupiter office. Our London office was designed to encourage employees to live active, healthy lives with floor-to-ceiling windows that allow for greater natural light and the benefit of a private balcony, table tennis room, cycle storage and on-site shower and locker facilities. The short distance to Green Park and St James' Park also provides employees with a natural space to relax during their lunch break and a healthy alternative to office-based meetings. 
+
+We offer our UK employees a 3:2 hybrid working arrangement where Tuesdays, Thursdays and a third day of your choice are worked from the office. The other two days may be worked from home.  This facilitates collaboration and allows employees to maximise productivity whilst maintaining a healthy work/life balance.
+
+Background
+
+The new role of Data Scientist – Client Group will be instrumental in driving strategic decision-making and maximising the effectiveness of an insight driven business development approach for Jupiter’s Client Group. The role is part of our established Data Science team, however, will be the first to focus on Client Group, adding to our existing Investment Management capabilities.
+
+The Data Scientist will be responsible for the effective delivery of data driven insights by helping to discover information hidden in vast quantities of data. You will be expected to work closely with Client Group executives and colleagues from day one and should be confident in presenting and supporting any insights or signals generated from your work. 
+
+The role will report into the Data Science Lead and sits within the office of the Investment Management Chief Operating Officer. The work executed by the team often involves working with other areas of the business, such as Technology, Risk, and the Stewardship team. 
+
+The role offers a high level of exposure and responsibility and would suit someone who is constantly seeking to self-improve, performs best when part of a high-performing team, and takes responsibility for the work they deliver. The team has a start-up culture where all voices are equal, and performance is judged on merit and delivery. ​
+
+Key Responsibilities
+
+1. Data Analysis and Interpretation:
+
+Assemble, clean, and preprocess large datasets from various sources including sales transactions, client interactions, and marketing campaigns.
+
+Work with data engineers and data scientists to conduct exploratory data analyses to extract meaningful information.
+
+Distil findings into relevant and actionable insights. 
+
+ 
+
+2. Predictive Modelling:
+
+Develop, refine, and optimize predictive models to forecast sales trends, client turnover, and campaign outcomes.
+
+Implement machine learning algorithms such as regression, classification, and clustering to build accurate and insightful models.
+
+ 
+
+3. Marketing Optimisation:
+
+Collaborate with marketing teams to design and effectively evaluate marketing campaigns.
+
+Provide recommendations for optimizing marketing spend, targeting, and messaging to maximise impact.
+
+ 
+
+4. Sales Enablement:
+
+Support sales teams by providing insights into client preferences, buying and research behaviour, and product demand.
+
+Identify cross-selling and upselling opportunities based on client segmentation, and predictive channel and client type analytics.
+
+ 
+
+5. Data Visualisation and Reporting:
+
+Create visually engaging dashboards and reports to communicate key findings and insights to stakeholders.
+
+Present findings and recommendations to senior management and other relevant teams in a clear and understandable manner.
+
+
+Desired Skills / Experience
+
+Knowledge of SQL and R/Python essential. Knowledge of PowerBI and/or Tableau highly desirable.
+
+Knowledge and experience of Data Science Python Libraries including: Pandas, NumPy, SciPy, StatsModels, scikit-learn, Plotly, and Matplotlib.
+
+Previous experience or knowledge of handling large datasets and working with data stored within databases.
+
+Understand the model build lifecycle, including feature selection and optimisation, model selection and validation, and ongoing model maintenance.
+
+Experience working within, or in close collaboration with,  sales, marketing, and/or CRM teams. Knowledge and/or interest in the investment management industry essential.
+
+Strong team player, whilst also able to work independently as required and take ownership of projects.
+
+Technology enthusiast, intellectually curious and a problem solver.
+
+Ability to work under time pressure, give realistic estimates, and work to deadlines.
+
+Strong written and verbal communication skills.
+
+Knowledge and experience with Azure,  Snowflake, and/or Databricks a plus.
+
+Additional Role Details
+
+This role is subject to the Conduct Rules set by the FCA.
+
+Don’t meet every requirement? At Jupiter we are dedicated to building a diverse and inclusive workplace, so if you are interested in this role, but don’t think your experience aligns perfectly with every listed requirement in the job description, we would encourage you to apply. You may be the right person for this role.
 }
-
+------------------------------------------------------------------------------------------------
 Story={
 
 I have always had a passion for data and playing with numbers since childhood. I excelled in basic stats, outpacing my peers in calculations, and even managed scoreboards during our play sessions back in the day.
@@ -103,15 +154,17 @@ On a personal note, my family, consisting of two members, has had the pleasure o
 
 }
 
-------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 Guidelines  = [
 you are an helpful assistant
 Keep the COver letter in similar format and structure we have in {SampelCoverLetter} 
+be careful in mentioning the country and company same as in {JODecription}
 Avoid unncessary information 
 Make it a bit like a story in sample and Since I am searching a job in Europe
+Keep it a bit condensed and interesting limiting to 1 page 
 ]
 
-------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 Ques = 
 
 Please rewrite my cover letter including my [MyProfile] for the job description [JODecription].

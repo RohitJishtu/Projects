@@ -1,13 +1,13 @@
 # Projects
 
-Thanks for visiting !!
-The repo is a public code base includes , coding problem solutions , Basic Projects and Problem solving.
+Welcome to My Repository!
+This public codebase includes coding problem solutions, basic projects, and problem-solving tips.
 
-With 12 years in the dynamic realm of IT and analytics, I joyfully unravel the complexities of mathematical concepts into actionable insights. Crafting robust data pipelines and orchestrating end-to-end ML projects have been the cornerstones of my privileged journey. Noteworthy achievements include pioneering lead scoring and refining product recommendation systems, with a keen focus on reducing churn and optimizing upselling.
+With 12 years in the dynamic fields of IT and analytics, I've enjoyed turning complex mathematical concepts into useful insights. Building data pipelines and managing ML projects have been key parts of my journey. I've worked on lead scoring and product recommendation systems, focusing on reducing churn and improving upselling.
 
-In the era of AI dominance, my passion extends to using and tuning Language Model (LLM) solutions for business challenges. While coding fascinates me, I humbly acknowledge I'm far from being an expert. Beyond data, I'm driven by an eternal optimism and a creative problem-solving spirit, exploring realms of literature, travel, and philosophy during my leisure. 
+In this AI-driven era, I love using and tuning Language Model (LLM) solutions for business challenges. I started programming later in life, and while I find it fascinating, I’m always learning more. Outside of work, I’m driven by optimism and a knack for creative problem-solving. In my free time, I enjoy literature, travel, and philosophy.
 
-Excited to infuse my expertise to all repo readers.
+I'm excited to share my knowledge and enthusiasm with everyone who visits this repository. Let’s learn and explore together!
 
 # 💫 About Me:
 Machine Learning <br>Programming and Data Projects <br>
@@ -34,5 +34,5 @@ Profile
 Linkedin :https://www.linkedin.com/in/rohit-jishtu/
 
 
-Resume :https://drive.google.com/file/d/11ONh6xI0z3cMJtvIW0uZO_-YCkx0iv9r/view?usp=drive_link
+Resume :https://docs.google.com/document/d/1RvqLVzKyYgEudNnpeKH6ncGInxl4fYCuiKV7XSPZpGw/edit
 
