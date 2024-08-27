@@ -122,3 +122,79 @@ Merge Intervals
 Plane Maximum time in Air 
 435. Non-overlapping Intervals
 
+
+
+-- Salesperson  
+
+-- +----+-------+------+--------+
+-- | ID | Name  | Age  | Salary |
+-- +----+-------+------+--------+
+-- |  1 | Abe   |   61 | 140000 |
+-- |  2 | Bob   |   34 |  44000 |
+-- |  5 | Chris |   34 |  40000 |
+-- |  7 | Dan   |   41 |  52000 |
+-- |  8 | Ken   |   57 | 115000 |
+-- | 11 | Joe   |   38 |  38000 |
+-- +----+-------+------+--------+
+
+-- Orders
+-- +--------+------------+---------+----------------+--------+
+-- | Number | order_date | cust_id | salesperson_id | Amount |
+-- +--------+------------+---------+----------------+--------+
+-- |     10 | 1996-08-02 |       4 |              2 |    540 |
+-- |     20 | 1999-01-30 |       4 |              8 |   1800 |
+-- |     30 | 1995-07-14 |       9 |              1 |    460 |
+-- |     40 | 1998-01-29 |       7 |              2 |   2400 |
+-- |     50 | 1998-02-03 |       6 |              7 |    600 |
+-- |     60 | 1998-03-02 |       6 |              7 |    720 |
+-- |     70 | 1998-05-06 |       9 |              7 |    150 |
+-- +--------+------------+---------+----------------+--------+
+
+
+List the salespersons who have made consecutive sales in two or more different months.
+
+
+1 - join the tables inner join 
+2- date_diff(order_date) and lag
+
+
+with cte as (Select salesperson_id, lag(orderdate) over(order by order_date) as c from orders )
+
+select * from cte where date_diff(c)=1
+
+-- +--------+------------+---------+----------------+--------+
+
+
+-- +--------+------------+---------+----------------+--------+
+
+
+-- In a given list, find the counts of the minimum value.
+List = [5, 2, 8, 1, 5, 0, 3, 1, 7, 2, 5, 4]
+
+
+d = {5:3,2:2, 0:1}
+res = [3,2,1]
+
+1- if len(l)>1:
+2- find the number of occurence of elements 
+3- find second occurence - 
+a. if 
+
+def secOccur(n):
+  d = {}
+  
+  for i in range(len(l)):
+    if l[i] in d:
+      d[l[i]]=d[l[i]]+1
+
+    else:
+    d[l[i]]=1
+
+
+    
+
+
+
+
+
+  
