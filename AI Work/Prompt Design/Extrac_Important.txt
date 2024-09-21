@@ -1,142 +1,78 @@
 ------------------------------------------------
+------------------------------------------------
 MyProfile ={
  ROHIT JISHTU
-STAFF MACHINE LEARNING ENGINEER
+AI & MACHINE LEARNING
 Hyderabad, India • +91-81423-92758
-jishtu.rohit@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
-With a 12-year IT career, I excel in building data pipelines and end-to-end ML project orchestration, consistently delivering impactful results. Recognized for innovation in sales assist data generation , lead prioritization, churn prediction, business upsell optimization, and recommendation systems improvement.
-A programming and SQL devotee, along with being an avid reader, I bring an enduring optimism, eagerness to contribute and enthusiasm to your team.
+jishturohit48@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
+12-year IT veteran with expertise in data pipelines, ML orchestration, and AI-driven solutions. Recognized for innovations in GEN AI, lead prioritization, churn prediction, and product recommendations. Passionate about programming, SQL, and leading AI/ML teams to drive strategic initiatives and foster innovation.
 SKILLS & OTHER
-Tech Skills: Python, SQL, Data Warehousing & Analysis, Statistics & Machine Learning, Deep Learning, MLOps, Gen AI, NLP Platform: Azure ML, Snowflake, Databricks, Airflow, Tableau, GIT, Kubernetes, Scikit-Learn, Fiddler, TensorFlow, BERT,Keras Trainings & Certifications: Data Structure & Algo, RAG Models ,Feature Engineering ,Data Storytelling ,Product Management
+ML & AI: Python, Statistics, Machine Learning Algorithms , Deep learning (TensorFlow, Kera), BERT, NLP Platforms & Tools: Snowflake, Azure ML, Databricks, Kubernetes , Docker , Power BI
+Others: Data Warehousing, MLOps, SQL , RAG , Fiddler
 KEY PROJECTS
 AI Feature Hub: Driving the evolution of Feature Hub by integrating LLM and RAG-based methods to create advanced AI features. Managing a massive feature store with over 50k features derived from 1000 tables and 100 data sources, processing terabytes of data for data researchers.
 Lead Prioritisation : Pioneered and implemented an organization-wide lead scoring system for 5m leads , driving a $170 million revenue increase and achieving a 400% boost in lead-to-deal conversion.
 Generative AI Sales Battle Cards : One stop shop , Strengthening sales reps with data-driven pitch materials, summarizing PDFs, interactions, and meeting notes for effective deal preparation for 250k key contacts , speeding up deal closure.
 Customer Churn : Achieved a 20% reduction in customer churn for subscription services through our ML solution, saving millions by leveraging usage data. The current model boasts an impressive 80% precision and 70% recall.
-   Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
- Himachal Pradesh University, Shimla, IN Bachelor of Technology, Information Technology
+Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
+Chat Bot Analyser: Developed and launched a cloud-based Python app, Transloom Insights, with a Streamlit interface. It handles LLM queries, evaluates outputs for speed, conciseness, and relevance, and ensures compliance with approved APIs. Achieved 100 MAUs within a week, earning leadership recognition.
+    Himachal Pradesh University, Shimla, IN Bachelor of Technology, Information Technology
 EDUCATION
 PROFESSIONAL EXPERIENCE
 2011
- Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN
-● A typical day looks like coding , writing queries and cleaning data , before researching and modeling ML solutions. On a
-better day we get the results approved by stakeholders and we deploy the model to production , experience relief. On a
-very hectic day , we are firefighting data quality problems , called “First line of defense” for the team.
+model deployment and stakeholder approval, while challenges arise in ensuring data quality.
 ● Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes , Docker & Databricks.
-● Diving into Deep Learning , NLP and Transformers to devise solutions with advanced techniques.
-● Leading the mentorship group for new Engineering recruits and creating a culture for talent to flourish.
-Data Engineer - Accenture, Pune, IN 2014 – 2017
+● Diving into Deep Learning , NLP and Transformers to devise solutions with advanced Data Science techniques.
+● Leading the mentorship group for junior engineers , creating a culture for talent to flourish.
+ML Data Engineer - Accenture, Pune, IN 2014 – 2017
 ● Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw data to
-meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code to write the most efficient SQL Solution , and building my SQL muscles quite a bit.
-Data Engineer - Tech Mahindra, Bhubaneshwar, IN 2012 – 2014 ● This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating BO
-reports. Seeing the backend data model for the first time made me realize my career passion.
+meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code
+to write the most efficient SQL Solution , and building my SQL muscles quite a bit.
+Data Engineer and Analyst - Tech Mahindra, Bhubaneshwar, IN 2012 – 2014
+● This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating SAP Business Objects reports. Seeing the backend data model for the first time made me realize what I wanted to do
+CERTIFICATION DETAILS
+Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product Management, Databricks ML Development & Snowflake RAG Models & Implementation.
+ Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN
+● Daily responsibilities include coding, query optimization, data cleaning, and developing ML models. Success involves
 2018 – Present
-
+   
 }
-------------------------------------
-JODecription = {locations
-London
-time type
-Full time
-posted on
-Posted 2 Days Ago
-job requisition id
-JR303
-The Value of Active Minds
+------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+JobDecription = {
+Machine Learning Engineer- London
+Greater London Area
+
+Perplexity is building the next generation answer engine, empowering our users to find information in new and more effective ways. Perplexity applies LLMs for knowledge search at scale, serving millions of users across the world. In pursuit of this mission, we are looking for engineers to build recommendation systems for a more engaging, easier to use product. You will be part of a dynamic team dedicated to pushing the boundaries of what's possible with machine learning, particularly in the realms of content discovery and personalization.
+
+Our current backend stack is Python, Rust, TensorRT-LLM, Kubernetes, AWS. You will work on designing and implementing machine learning models that drive our recommendation systems, retrieval algorithms, and classifiers.
+
+Responsibilities
+
+Develop, train, and optimize machine learning models for recommendation systems.
+Build groundwork infrastructure for retrieval.
+Work with real world data to create scalable feedback loops.
+Incorporate state of the art LLMs into traditional machine learning systems.
+Qualifications
+
+Experience with machine learning at scale.
+Experience with retrieval infrastructure.
+Creative problem-solving skills with an ability to explore a new landscape of models.
+Eagerness to build from 0 to 1 and unlock potential in new products.
+Familiarity with big data pipelines for feature engineering.
+At least 6 years of experience with machine learning and backend engineering.
+At Perplexity, we've experienced tremendous growth and adoption since publicly launching the world's first fully functional conversational answer engine just over a year ago. Our AI-powered search assistant has amassed 10 million monthly active users as of early 2024, with our mobile apps installed over 1 million times across iOS and Android devices. In 2023 alone, we served over 500 million queries from users around the globe.
+
+To support our rapid expansion, we've raised significant funding from some of the most respected investors in technology. In January 2024, we raised $73.6 million in a Series B round led by IVP, with participation from NVIDIA, Jeff Bezos' investment fund, NEA, Databricks, and other prominent firms. We followed that up with a $62.7 million Series B1 round in April 2024 led by Daniel Gross, valuing Perplexity at over $1 billion.
+Our prominent investor base includes IVP, NEA, Jeff Bezos, NVIDIA, Databricks, Bessemer Venture Partners, Elad Gil, Nat Friedman, Naval Ravikant, Tobi Lutke, and many other visionary individuals.
  
-
-About Jupiter
-
-Jupiter is one of the UK’s leading investment management companies with just over 500 employees and £51.4 billion worth of assets under management (as at 30th June 2023). 
-
-Jupiter provides investment services to individual and institutional investors through mutual funds (UK unit trusts, Luxembourg SICAVs and Dublin OEICs), separately managed accounts and sub-advised funds. Jupiter has experienced a period of international growth with offices open in EMEA, APAC and the US. 
-
-The majority of our employees are based in our London office located just minutes from Victoria station which provides stair-free access from both the Underground’s Victoria line and National Rail platforms, as well as limited road crossings to the Jupiter office. Our London office was designed to encourage employees to live active, healthy lives with floor-to-ceiling windows that allow for greater natural light and the benefit of a private balcony, table tennis room, cycle storage and on-site shower and locker facilities. The short distance to Green Park and St James' Park also provides employees with a natural space to relax during their lunch break and a healthy alternative to office-based meetings. 
-
-We offer our UK employees a 3:2 hybrid working arrangement where Tuesdays, Thursdays and a third day of your choice are worked from the office. The other two days may be worked from home.  This facilitates collaboration and allows employees to maximise productivity whilst maintaining a healthy work/life balance.
-
-Background
-
-The new role of Data Scientist – Client Group will be instrumental in driving strategic decision-making and maximising the effectiveness of an insight driven business development approach for Jupiter’s Client Group. The role is part of our established Data Science team, however, will be the first to focus on Client Group, adding to our existing Investment Management capabilities.
-
-The Data Scientist will be responsible for the effective delivery of data driven insights by helping to discover information hidden in vast quantities of data. You will be expected to work closely with Client Group executives and colleagues from day one and should be confident in presenting and supporting any insights or signals generated from your work. 
-
-The role will report into the Data Science Lead and sits within the office of the Investment Management Chief Operating Officer. The work executed by the team often involves working with other areas of the business, such as Technology, Risk, and the Stewardship team. 
-
-The role offers a high level of exposure and responsibility and would suit someone who is constantly seeking to self-improve, performs best when part of a high-performing team, and takes responsibility for the work they deliver. The team has a start-up culture where all voices are equal, and performance is judged on merit and delivery. ​
-
-Key Responsibilities
-
-1. Data Analysis and Interpretation:
-
-Assemble, clean, and preprocess large datasets from various sources including sales transactions, client interactions, and marketing campaigns.
-
-Work with data engineers and data scientists to conduct exploratory data analyses to extract meaningful information.
-
-Distil findings into relevant and actionable insights. 
-
+Final offer amounts are determined by multiple factors, including, experience and expertise, and may vary from the amounts listed above.
  
-
-2. Predictive Modelling:
-
-Develop, refine, and optimize predictive models to forecast sales trends, client turnover, and campaign outcomes.
-
-Implement machine learning algorithms such as regression, classification, and clustering to build accurate and insightful models.
-
+Equity: In addition to the base salary, equity is part of the total compensation package.
+Benefits: Comprehensive health, dental, and vision insurance for you and your dependents. Includes a 401(k) plan.
+ }
  
-
-3. Marketing Optimisation:
-
-Collaborate with marketing teams to design and effectively evaluate marketing campaigns.
-
-Provide recommendations for optimizing marketing spend, targeting, and messaging to maximise impact.
-
- 
-
-4. Sales Enablement:
-
-Support sales teams by providing insights into client preferences, buying and research behaviour, and product demand.
-
-Identify cross-selling and upselling opportunities based on client segmentation, and predictive channel and client type analytics.
-
- 
-
-5. Data Visualisation and Reporting:
-
-Create visually engaging dashboards and reports to communicate key findings and insights to stakeholders.
-
-Present findings and recommendations to senior management and other relevant teams in a clear and understandable manner.
-
-
-Desired Skills / Experience
-
-Knowledge of SQL and R/Python essential. Knowledge of PowerBI and/or Tableau highly desirable.
-
-Knowledge and experience of Data Science Python Libraries including: Pandas, NumPy, SciPy, StatsModels, scikit-learn, Plotly, and Matplotlib.
-
-Previous experience or knowledge of handling large datasets and working with data stored within databases.
-
-Understand the model build lifecycle, including feature selection and optimisation, model selection and validation, and ongoing model maintenance.
-
-Experience working within, or in close collaboration with,  sales, marketing, and/or CRM teams. Knowledge and/or interest in the investment management industry essential.
-
-Strong team player, whilst also able to work independently as required and take ownership of projects.
-
-Technology enthusiast, intellectually curious and a problem solver.
-
-Ability to work under time pressure, give realistic estimates, and work to deadlines.
-
-Strong written and verbal communication skills.
-
-Knowledge and experience with Azure,  Snowflake, and/or Databricks a plus.
-
-Additional Role Details
-
-This role is subject to the Conduct Rules set by the FCA.
-
-Don’t meet every requirement? At Jupiter we are dedicated to building a diverse and inclusive workplace, so if you are interested in this role, but don’t think your experience aligns perfectly with every listed requirement in the job description, we would encourage you to apply. You may be the right person for this role.
-}
-------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------
 Story={
 
 I have always had a passion for data and playing with numbers since childhood. I excelled in basic stats, outpacing my peers in calculations, and even managed scoreboards during our play sessions back in the day.
@@ -149,10 +85,33 @@ I am enthusiastic about reading and writing(amateur) and have been leading the B
 
 Beyond my professional pursuits, I am an ardent lover of books and reading. My fascination with numbers and data has led me to explore and self-teach extensively in Machine Learning. Early in my career, working closely with Data Scientists provided me with a unique context on how to approach problems strategically, emphasizing thoughtful analysis before diving into coding. My unique selling proposition lies in my vast industry experience with SQL and Spark, collaborating with diverse teams to understand data intricacies and solve complex problems, complementing my expertise in Data Science.
 
-On a personal note, my family, consisting of two members, has had the pleasure of visiting Europe twice. Guess which country was our favourite? One of the happiest countries, Finland. Well, all of them are spectacular for sure. We fell in love with the weather and the overall quality of life, making the prospect of working with Wolt even more exciting.
-
+On a personal note, my family, consisting of two members, has had the pleasure of visiting Europe twice. We fell in love with the weather and the overall quality of life, making the prospect of working with Wolt even more exciting.
 
 }
+------------------------------------------------------------------------------------------------
+
+sample ={
+
+Dear Hiring Manager,
+
+I came across your job posting at Zalando, and I believe my skills and experience in AI/ML make me an ideal fit for this exciting role in your Marketing Service (ZMS) team.
+
+Why I’m a Good Fit:
+As an AI & Machine Learning Engineer with 12 years of experience, I specialize in building and deploying scalable machine learning systems in cloud environments like Azure and AWS. In my current role at ServiceNow, I lead the development of large-scale ML solutions, including product recommendations and customer churn prediction, both of which have driven significant revenue and user engagement. Specifically, I have optimized product SKU recommendations, resulting in a 10X increase in product adoption, and implemented lead prioritization models that contributed to a $170 million revenue increase.
+
+I also bring hands-on expertise in optimizing ML workflows—something that directly aligns with Zalando's need for operational excellence in AI systems. Working closely with applied scientists, I’ve fine-tuned training times and serving latencies, ensuring that our ML models are both highly accurate and production-ready. Additionally, my experience with Kubernetes and CI/CD pipelines allows me to manage end-to-end engineering solutions, just as your team requires.
+
+Why Zalando Interests Me:
+Zalando’s focus on merging cutting-edge data insights with fashion and lifestyle marketing is something I find incredibly inspiring. I am particularly drawn to your mission to seamlessly engage millions of active customers through personalized and data-infused campaigns. The opportunity to work on your real-time recommendation systems and ad tech platform excites me, especially in a role where I can collaborate with both applied scientists and engineers to drive innovation in marketing.
+
+Furthermore, Zalando's inclusive culture and commitment to diversity align with my personal values. Your flexible working options and the emphasis on employee well-being are also key aspects that make Zalando a particularly attractive place to grow my career.
+
+Closing:
+I am enthusiastic about the prospect of contributing to Zalando’s next-generation AI-driven marketing solutions. I would love the opportunity to discuss how my background, particularly in scaling ML systems and collaborating with cross-functional teams, can contribute to your goals.
+
+Thank you for considering my application. I look forward to hearing from you!
+}
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Guidelines  = [
@@ -167,7 +126,7 @@ Keep it a bit condensed and interesting limiting to 1 page
 ------------------------------------------------------------------------------------------------------------
 Ques = 
 
-Please rewrite my cover letter including my [MyProfile] for the job description [JODecription].
+Please rewrite my cover letter including my [MyProfile] for the job description [JobDecription].
 please stick to [Guidelines] and try to make a compelling story based on my hisory wroiten in [Story]
-
+Please keep the format same as {sample}
 Please answer the [Ques] 

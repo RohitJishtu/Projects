@@ -1,6 +1,7 @@
 # Let's consider the following infinite sequence:
 # 0, 1, 1, 2, 3, 5, 8, 13, 12, 7, 10, 8, 9, ...
-# The 0th element is 0 and the 1st element is 1. The successive elements are defined recursively. Each of them is the sum of the separate digits of the
+# The 0th element is 0 and the 1st element is 
+# 1. The successive elements are defined recursively. Each of them is the sum of the separate digits of the
 # two previous elements.
 # Write a function:
 # def solution(n)
