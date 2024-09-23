@@ -40,37 +40,35 @@ Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product M
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------
 JobDecription = {
-Machine Learning Engineer- London
-Greater London Area
+Waymo is an autonomous driving technology company with the mission to be the most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo One, a fully autonomous ride-hailing service, and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over one million rider-only trips, enabled by its experience autonomously driving tens of millions of miles on public roads and tens of billions in simulation across 13+ U.S. states.
 
-Perplexity is building the next generation answer engine, empowering our users to find information in new and more effective ways. Perplexity applies LLMs for knowledge search at scale, serving millions of users across the world. In pursuit of this mission, we are looking for engineers to build recommendation systems for a more engaging, easier to use product. You will be part of a dynamic team dedicated to pushing the boundaries of what's possible with machine learning, particularly in the realms of content discovery and personalization.
+The Simulator team builds state-of-the-art simulations of realistic environments for the testing and training of the Waymo driver. We use machine learning to model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists etc.), roads, traffic control systems, and weather. To increase the fidelity and steerability of the simulations, we employ large foundation models, trained on our massive datasets that allow us to quickly setup and rollout multiple scenarios to subject our driver to.
 
-Our current backend stack is Python, Rust, TensorRT-LLM, Kubernetes, AWS. You will work on designing and implementing machine learning models that drive our recommendation systems, retrieval algorithms, and classifiers.
+We are planning to set up a team in London UK to work with the teams in MTV and Oxford to build these foundation models out and to integrate them into several evaluation and training products. We are looking for research engineers to work on these exciting problems.
 
-Responsibilities
+In this hybrid role, you will report to an Engineering Director.
 
-Develop, train, and optimize machine learning models for recommendation systems.
-Build groundwork infrastructure for retrieval.
-Work with real world data to create scalable feedback loops.
-Incorporate state of the art LLMs into traditional machine learning systems.
-Qualifications
+You will:
 
-Experience with machine learning at scale.
-Experience with retrieval infrastructure.
-Creative problem-solving skills with an ability to explore a new landscape of models.
-Eagerness to build from 0 to 1 and unlock potential in new products.
-Familiarity with big data pipelines for feature engineering.
-At least 6 years of experience with machine learning and backend engineering.
-At Perplexity, we've experienced tremendous growth and adoption since publicly launching the world's first fully functional conversational answer engine just over a year ago. Our AI-powered search assistant has amassed 10 million monthly active users as of early 2024, with our mobile apps installed over 1 million times across iOS and Android devices. In 2023 alone, we served over 500 million queries from users around the globe.
+Be part of a world class research engineering team to grow the state-of-the-art of ultra realistic AV simulations using foundation models
+Collaborate with teams in Waymo Oxford to use large models to improve sim realism
+Design experiments that push the frontiers of AV simulations
+Develop metrics that measure the realism of simulated worlds
+Train and evaluate large models and integrate them into the simulator and its downstream applications
+Help hire outstanding research engineers from diverse backgrounds
+Be a part of a collaborative research engineering team that takes research ideas and productionizes them
+We prefer:
 
-To support our rapid expansion, we've raised significant funding from some of the most respected investors in technology. In January 2024, we raised $73.6 million in a Series B round led by IVP, with participation from NVIDIA, Jeff Bezos' investment fund, NEA, Databricks, and other prominent firms. We followed that up with a $62.7 million Series B1 round in April 2024 led by Daniel Gross, valuing Perplexity at over $1 billion.
-Our prominent investor base includes IVP, NEA, Jeff Bezos, NVIDIA, Databricks, Bessemer Venture Partners, Elad Gil, Nat Friedman, Naval Ravikant, Tobi Lutke, and many other visionary individuals.
- 
-Final offer amounts are determined by multiple factors, including, experience and expertise, and may vary from the amounts listed above.
- 
-Equity: In addition to the base salary, equity is part of the total compensation package.
-Benefits: Comprehensive health, dental, and vision insurance for you and your dependents. Includes a 401(k) plan.
- }
+5+ years experience in applied Deep Learning
+5+ years coding and design skills
+Experience solving complex production problems using state-of-the-art ML techniques
+Experience taking research to production
+Expertise in Data Analysis or Data Science
+#LI-Hybrid
+
+The expected base salary range for this full-time position is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level.  Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.
+Salary Range
+£145,000—£157,000 GBP.}
  
   ------------------------------------------------------------------------------------------------
 Story={
