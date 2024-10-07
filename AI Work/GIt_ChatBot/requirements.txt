@@ -1,0 +1,20 @@
+gradio
+spacy
+annoy
+gitpython
+langchain_community
+pydantic
+sentence-transformers
+langchain_community
+pip install spacy gitpython annoy sentence-transformers transformers gradio
+python -m spacy download en_core_web_sm  # For Spacy tokenizer
+gitpython==3.1.30
+spacy==3.1.0
+annoy==1.17.1
+torch==1.13.1
+transformers==4.28.1
+sentence-transformers==2.2.2
+TRANSFORMERS_OFFLINE=1
+ollama
+python -m spacy download en_core_web_md
+pypdf2 
