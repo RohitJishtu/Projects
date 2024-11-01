@@ -1,0 +1,59 @@
+############## Python #################################################################################
+
+1.cd .\ and enter . (going back 1 path step)
+
+
+Run `Command+K+S` to open keyboard shortcuts.
+Then type `Python: Run Python File in Terminal`. Select it.
+You can then type whatever key binding you want to use to run your code. (I use Command+Alt+N)
+
+
+############## Python Creating virtual Environment #################################################################################
+
+Creating Env in Azure 	(Using Conda)
+    conda env list
+	conda create --name MLE_Env
+	conda activate environment_name
+	python --version
+	conda install -c anaconda ipykernel
+	python -m ipykernel install --user --name=MLEEnv
+
+
+using Python Venev
+
+# Setting up a Virtual Environment without Conda
+
+## 1. Create a Virtual Environment using `venv`
+python3 -m venv myenv
+
+## 2. Activate the Virtual Environment
+source myenv/bin/activate
+
+## 3. Install Packages within the Environment
+pip install <package-name>
+
+## 4. Register as Jupyter Kernel (Optional)
+pip install ipykernel
+python -m ipykernel install --user --name=myenv
+
+## 5. Select the Environment in VS Code
+# In VS Code, open the Command Palette (⇧⌘P) and type "Python: Select Interpreter"
+# Choose the Python interpreter for 'myenv'
+
+## 6. Deactivate the Environment
+deactivate
+
+
+
+############## GIT Section ############################################################################################################
+
+git status 
+git add . 
+Git Version Check 	git --version 	git version 2.39.2 (Apple Git-143)
+Setting up System 	git config --global user.name	git config --global user.name "My Name"
+	git config --global user.email	git config --global user.email "myemail@example.com"
+	git config --list		
+Cloning 	git clone "LinkFromGITHUB"	
+If Rebase stuck 		
+	git branch -m <newname>		
+git pull origin <branch_name>	
