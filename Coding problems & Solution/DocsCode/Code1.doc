@@ -1,14 +1,44 @@
-Duplicate Integer
-Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
 
-Example 1:
 
-Input: nums = [1, 2, 3, 3]
+Return_Max_water=0
+left,X1=height[0] , 1
+right,X2=height[len(height] ,len(height)+1
+Max_Water=0
+If left< right:
+	Max_water= left*(X2-X1)  1*9= 9 
+	Left++
+	X1++ =2
+Elif right >left:
+	Max_water=right*(X2-X1)  49
+	Right –
+	X2 – =7
+Elif right=left:
+	Max_water=right*(X2-X1)  40
+If Return_Max_water  > Max_water:
+	Then swap 
+	Return_Max_water=49
+height = [1,8,6,2,5,4,8,3,7]
+height=  [1,1]
+Def MaxWater(height):	
+	return_max_water=0
+	left=0
+	X1=1
+	right=len(height-1)
+	X2=len(height)+1
+For element in height:
+current_max_water=0
+If height[left] <height[right]:
+   current_max_water= height[left]*(X2-X1)
+   Left++
+   X1++
+Elif height[left] <height[right]:	
+   current_max_water= height[right]*(X2-X1)
+   right–
+   X2–
+Else:
+   current_max_water= height[right]*(X2-X1)
+   return_max_water=max(return_max_water,current_max_water)
+   Return  return_max_water
 
-Output: true
-Example 2:
-
-Input: nums = [1, 2, 3, 4]
-
-Output: false
-
+return_max_water=max(return_max_water,current_max_water)
+Return return_max_water
