@@ -40,35 +40,41 @@ Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product M
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------
 JobDecription = {
-Waymo is an autonomous driving technology company with the mission to be the most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo One, a fully autonomous ride-hailing service, and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over one million rider-only trips, enabled by its experience autonomously driving tens of millions of miles on public roads and tens of billions in simulation across 13+ U.S. states.
+Overview
+Security represents the most critical priorities for our customers in a world awash in digital threats, regulatory scrutiny, and estate complexity. Microsoft Security aspires to make the world a safer place for all. We want to reshape security and empower every user, customer, and developer with a security cloud that protects them with end to end, simplified solutions.
 
-The Simulator team builds state-of-the-art simulations of realistic environments for the testing and training of the Waymo driver. We use machine learning to model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists etc.), roads, traffic control systems, and weather. To increase the fidelity and steerability of the simulations, we employ large foundation models, trained on our massive datasets that allow us to quickly setup and rollout multiple scenarios to subject our driver to.
+The Microsoft Security organization accelerates Microsoft’s mission and bold ambitions to ensure that our company and industry is securing digital technology platforms, devices, and clouds in our customers’ heterogeneous environments, as well as ensuring the security of our own internal estate. Our culture is centered on embracing a growth mindset, a theme of inspiring excellence, and encouraging teams and leaders to bring their best each day. In doing so, we create life-changing innovations that impact billions of lives around the world.
 
-We are planning to set up a team in London UK to work with the teams in MTV and Oxford to build these foundation models out and to integrate them into several evaluation and training products. We are looking for research engineers to work on these exciting problems.
+ 
 
-In this hybrid role, you will report to an Engineering Director.
+Microsoft Purview's suite of products includes data security, insider risk management, legal eDiscovery, communication compliance, and data lifecycle management, supported by Copilot for Security innovations. The Data and Applied Sciences Research team leads the way in pioneering AI and machine learning innovations, specializing in deep learning, NLP, large language models (LLMs/GPT), graph models, AutoGPTs, chatbots, etc. Our research is dedicated to pushing the boundaries of technology, anticipating future needs, and seamlessly integrating AI innovations into our product suite. We aim to deliver groundbreaking solutions that not only address current demands but also establish the groundwork for transformative advancements in data and applied sciences.
 
-You will:
+Qualifications
+Experience developing and deploying large scale AI applications and generative AI applications.
+Knowledge of machine learning algorithms and concepts (e.g., supervised learning, unsupervised learning, deep learning) as applied to generative AI.
+Familiarity with data science tools and techniques.
+10+ years of professional experience in a technical role building and deploying ML solutions at scale for real-world problems
+Bachelors/Master’s degree with relevant course work toward Computer Science, Data Science, Statistics, Machine Learning, Data Mining, Prompt Engineering and equivalent work experience.
+Contributions to open-source generative AI projects.
+Excellent cross-group and interpersonal skills, with the ability to articulate solutions.
+Additional experience in any of the areas like cyber security, fraud detection, regulations, business processes in enterprises, legal discovery, etc., would be beneficial, but not mandatory.
 
-Be part of a world class research engineering team to grow the state-of-the-art of ultra realistic AV simulations using foundation models
-Collaborate with teams in Waymo Oxford to use large models to improve sim realism
-Design experiments that push the frontiers of AV simulations
-Develop metrics that measure the realism of simulated worlds
-Train and evaluate large models and integrate them into the simulator and its downstream applications
-Help hire outstanding research engineers from diverse backgrounds
-Be a part of a collaborative research engineering team that takes research ideas and productionizes them
-We prefer:
 
-5+ years experience in applied Deep Learning
-5+ years coding and design skills
-Experience solving complex production problems using state-of-the-art ML techniques
-Experience taking research to production
-Expertise in Data Analysis or Data Science
-#LI-Hybrid
+Responsibilities
+We are seeking an enthusiastic AI engineer who is passionate about the latest AI advancements, possesses a start-up mindset, and is willing to take on any challenge - from coding to UX development, model building, prompt engineering, and metric definition - to join our dynamic team.
 
-The expected base salary range for this full-time position is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level.  Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.
-Salary Range
-£145,000—£157,000 GBP.}
+ 
+
+Responsibilities include:
+
+Design, develop, and implement robust and scalable software applications that utilize generative AI techniques.
+Integrate LLMs and NLP into software solutions for tasks such as text generation, summarization, translation, and question answering.
+Optimize generative AI models and their performance for specific use cases.
+Develop NLP pipelines for tasks like text classification, sentiment analysis, and named entity recognition.
+Collaborate with AI researchers and data scientists to explore new applications of generative AI.
+Stay up-to-date with the latest trends and technologies in generative AI.
+
+}
  
   ------------------------------------------------------------------------------------------------
 Story={

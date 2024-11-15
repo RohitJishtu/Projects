@@ -11,7 +11,7 @@ Target=8
 #                 2. Sum > Target : remove latest element and increase index to next 
 #                 3. Sum==Target : Append temparray to main output and remove latest added and move to next 
 
-#  Step2   : Go to next element and Repeat the process  
+# Step2 : Go to next element and Repeat the process  
 
 def CombinationSum(Nums,Target):
     Output=[]
