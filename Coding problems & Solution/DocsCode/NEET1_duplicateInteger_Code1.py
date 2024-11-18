@@ -25,8 +25,8 @@ def duplicatElements(nums):
 print(duplicatElements(nums))
 
 
-Time Complexity : O(n)
-Space =O(n)
+# Time Complexity : O(n)
+# Space =O(n)
 
 
 # # LLm Evaluation 
