@@ -32,11 +32,11 @@ Emp6.child=[Emp7]
 
 # In the below tree give me left visible nodes only 
 
-#                 E1 
+#                 E1            1 
 
-#         E2              E5
+#         E2              E5    2     [E3,E4,E5]
 
-# E3              E4          E6 
+# E3              E4          E6 3   [E7]
 
 #                                 E7
 
@@ -50,19 +50,35 @@ Emp6.child=[Emp7]
 
 from collections import deque
 def LeftVisible(root,level=1,leftvisible=[]):   
-    
     nodes=deque()
-    nodes.append(root)    
-    leftvisible.append(root)   
-    while len(nodes) >0: 
-
-        currnodes=nodes.popleft()   
-        for child in range(len(currnodes.child)):
-            if child==0:
-                leftvisible.append(nodes[child])
-            nodes.append(child) 
-            for gchilds in child.childs:
-                nodes.append(gchilds)
+    nodes.append(root)
+    leftvisible.append(root.name)
+    newchilds=deque()
+    levelfirst=0
+    while len(nodes)>0:
+        current_node=nodes.popleft()
+        for child in current_node.child:
+            if levelfirst==0:
+                leftvisible.append(child.name)
+                levelfirst=1
+            newchilds.append(child)
+        print(f'{leftvisible=} {len(newchilds)=}')
+        if len(nodes)==0:
+           nodes=deque()
+           nodes=newchilds
+           newchilds=deque()
+           levelfirst=0
     return leftvisible
 
 print(LeftVisible(Emp1))
+
+
+Ques =  {
+          Please Rate my above written [Code].
+          Give me rating out of 5 with respect to interviews. 
+          Give Time complexity 
+          Give Space complexity 
+          Also list down Coder's stregths and weaknesses 
+          Add Comments for the code , dont change anything in the code 
+        }
+
