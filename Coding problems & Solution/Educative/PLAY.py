@@ -103,9 +103,17 @@
 # Experiments with Queue 
 
 
-from queue import deque
-Q1=deque()
-Q1.append(12)
-Q1.append(2)
-Q1.append(3)
-print(Q1)
+# from queue import deque
+# Q1=deque()
+# Q1.append(12)
+# Q1.append(2)
+# Q1.append(3)
+# print(Q1)
+
+
+# List Comprehension 
+
+List1=[(2,3),(3,4)]
+print(f'before {List1=}')
+List1=[(y,x) for x,y in List1]
+print(f'After {List1=}')
