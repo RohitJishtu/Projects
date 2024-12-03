@@ -113,7 +113,66 @@
 
 # List Comprehension 
 
-List1=[(2,3),(3,4)]
-print(f'before {List1=}')
-List1=[(y,x) for x,y in List1]
-print(f'After {List1=}')
+# List1=[(2,3),(3,4)]
+# print(f'before {List1=}')
+# List1=[(y,x) for x,y in List1]
+# print(f'After {List1=}')
+
+# maximum Planes in air 
+
+data=[[2,5] ,[3,7],[8,9],[1,3]]
+
+Answer=2
+
+# Logic :
+
+# Start= [2,3,8,1]
+# End=[5,7,9,3]
+
+# Start=[1,2,3,8]
+# End=[3,5,7,9]
+
+# # 24 times
+
+# # for iter in :
+
+# #     if iter= start:
+# #         plane+1
+# #     elif 
+# #         iter in end 
+# #         plane-1 
+# #     maxp;ane=max(plane,maxplane)
+
+# Logic 2 :
+
+data=[[2,5],[3,7],[8,9],[1,3]]
+
+
+def MaxAirPlanes(data):
+    maxAirplanes=0
+    Curr_maxAirplanes=0
+    mewlist=[]
+    for elements in data:
+        mewlist.append(('Start',elements[0]))
+        mewlist.append(('End',elements[1]))
+
+    # Sort the list 
+    mewlist=sorted(mewlist,key=lambda x:x[1])
+
+    for element in mewlist:
+        if element[0]=='Start':
+            Curr_maxAirplanes+=1
+        elif element[0]=='End':
+            Curr_maxAirplanes-=1
+        maxAirplanes=max(maxAirplanes,Curr_maxAirplanes)
+
+    return maxAirplanes
+
+print(MaxAirPlanes(data))
+
+# Rate the code quality on a scale of 1 to 5 (1 being poor, 5 being flawless). 1 word answer
+# Evaluate the problem-solving approach and provide a rating (1 to 5).1 word answer
+# Analyze the time complexity (e.g., O(n)).1 word answer
+# Analyze the space complexity (e.g., O(n)).1 word answer
+# Identify the coder's strengths & coder's weaknesses in this code. 2 sentences 
+# Give Optimised solution Code

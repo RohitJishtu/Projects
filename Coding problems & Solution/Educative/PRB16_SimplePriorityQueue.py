@@ -16,15 +16,6 @@ k=3
 # 2. take the first element out , and append it to an array 
 # 1. repeat the same for the second element of the array where first was taken 
 
-import heapq
-def InsertToHeap(array,k,heap):
-    for iter in range(k):
-        insert= array[iter][0]
-        heapq.heappush(heap,(insert,iter))
-    return heap
-
-def FinalList_Insertion(List,heap):
-    List.append(heapq.heappop(heap))
 
 
 

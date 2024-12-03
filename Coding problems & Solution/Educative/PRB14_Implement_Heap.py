@@ -1,13 +1,32 @@
 
-# 3 Find the lement in rotated Array 
+Array=[1,2,5,4,3,6]
 
-# Input  : arr[] = {4, 5, 6, 7, 0, 1, 2}, key = 0
-# Output : 4
+# Sort Using Heap Sort 
+# Heapifying : O(n) + O(nlogn)
 
-
-# Input  : arr[] = { 4, 5, 6, 7, 0, 1, 2 }, key = 3
-# Output : -1
+from heapq import heapify,heappop
 
 
-# Input : arr[] = {50, 10, 20, 30, 40}, key = 10   
-# Output : 1
+def Customer_heapify(Array):
+
+    pass
+
+
+
+
+def HeapSort(Array):
+    heapify(Array)
+    SortedList=[]
+    for i in range(0,len(Array)):
+        SortedList.append(heappop(Array))
+
+    return SortedList
+
+print(HeapSort(Array))
+
+
+Array=[1,2,5,4,3,6]
+
+        #             1 
+        #     2             5
+        # 4       3    6   
