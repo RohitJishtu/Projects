@@ -120,9 +120,9 @@
 
 # maximum Planes in air 
 
-data=[[2,5] ,[3,7],[8,9],[1,3]]
+# data=[[2,5] ,[3,7],[8,9],[1,3]]
 
-Answer=2
+# Answer=2
 
 # Logic :
 
@@ -145,30 +145,30 @@ Answer=2
 
 # Logic 2 :
 
-data=[[2,5],[3,7],[8,9],[1,3]]
+# data=[[2,5],[3,7],[8,9],[1,3]]
 
 
-def MaxAirPlanes(data):
-    maxAirplanes=0
-    Curr_maxAirplanes=0
-    mewlist=[]
-    for elements in data:
-        mewlist.append(('Start',elements[0]))
-        mewlist.append(('End',elements[1]))
+# def MaxAirPlanes(data):
+#     maxAirplanes=0
+#     Curr_maxAirplanes=0
+#     mewlist=[]
+#     for elements in data:
+#         mewlist.append(('Start',elements[0]))
+#         mewlist.append(('End',elements[1]))
 
-    # Sort the list 
-    mewlist=sorted(mewlist,key=lambda x:x[1])
+#     # Sort the list 
+#     mewlist=sorted(mewlist,key=lambda x:x[1])
 
-    for element in mewlist:
-        if element[0]=='Start':
-            Curr_maxAirplanes+=1
-        elif element[0]=='End':
-            Curr_maxAirplanes-=1
-        maxAirplanes=max(maxAirplanes,Curr_maxAirplanes)
+#     for element in mewlist:
+#         if element[0]=='Start':
+#             Curr_maxAirplanes+=1
+#         elif element[0]=='End':
+#             Curr_maxAirplanes-=1
+#         maxAirplanes=max(maxAirplanes,Curr_maxAirplanes)
 
-    return maxAirplanes
+#     return maxAirplanes
 
-print(MaxAirPlanes(data))
+# print(MaxAirPlanes(data))
 
 # Rate the code quality on a scale of 1 to 5 (1 being poor, 5 being flawless). 1 word answer
 # Evaluate the problem-solving approach and provide a rating (1 to 5).1 word answer
@@ -176,3 +176,122 @@ print(MaxAirPlanes(data))
 # Analyze the space complexity (e.g., O(n)).1 word answer
 # Identify the coder's strengths & coder's weaknesses in this code. 2 sentences 
 # Give Optimised solution Code
+
+
+# Example 1:
+
+# Input: n = 3
+# Output: ["((()))","(()())","(())()","()(())","()()()"]
+# Example 2:
+
+# Input: n = 1
+# Output: ["()"]
+# Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+# n=3 
+# 1   2    3          4      5     6
+# (   ()   ()         ()     ()    )
+#     (    (          )       )
+#     (    )          (      )
+#     (    )          )       )       
+
+# 1+2+2+2+2+1/2
+
+# Program :
+# n=6 , 3 p[en brackets , 3 closed brackets ina  list ]
+# first position : open , close 
+
+#     ( ( ( ) )) 
+#     ( ) ( ) () 
+#     ( ( ) ) ()
+
+# ()()()
+
+def MakeBrackets(n):
+    brackets=[]
+    for i in range(n//2):
+        brackets.append('(')
+        brackets.append(')')    
+
+    combinations = (2 + ((n-2)*2)//2)
+    result=[]
+    for combination in range(combinations):
+        ouput=''
+        for item in range(len(brackets)):
+            ouput += brackets[item]
+            if item >0 and item < (len(brackets)-1):
+                if brackets[item]=='(':
+                   brackets[item]=')'
+                else:
+                   brackets[item]='('
+            
+        result.append(ouput)
+    
+        
+    return result
+
+print(MakeBrackets(6))
+
+# Rate the code quality on a scale of 1 to 5 (1 being poor, 5 being flawless). 1 word answer
+# Evaluate the problem-solving approach and provide a rating (1 to 5).1 word answer
+# Analyze the time complexity (e.g., O(n)).1 word answer
+# Analyze the space complexity (e.g., O(n)).1 word answer
+# Identify the coder's strengths & coder's weaknesses in this code. 2 sentences 
+# Give Optimised solution Code
+
+# def MakeBrackets(n):
+#     # Total pairs of parentheses
+#     pairs = n // 2
+#     # Stack to simulate recursion
+#     stack = [("", 0, 0)]  # (current_string, open_count, close_count)
+#     result = []
+
+#     while stack:
+#         current, open_count, close_count = stack.pop()
+        
+#         # If we've used all pairs, add to the result
+#         if open_count == pairs and close_count == pairs:
+#             result.append(current)
+#             continue
+        
+#         # If open brackets can still be added
+#         if open_count < pairs:
+#             stack.append((current + "(", open_count + 1, close_count))
+        
+#         # If closing brackets can still balance the string
+#         if close_count < open_count:
+#             stack.append((current + ")", open_count, close_count + 1))
+    
+#     return result
+
+# # Example Usage:
+# print(MakeBrackets(6))  # For 6 brackets (3 pairs)
+
+def MakeBrackets(n):
+    # Total pairs of parentheses
+    pairs = n // 2
+    # Stack to simulate recursion
+    stack = [("", 0, 0)]  # (current_string, open_count, close_count)
+    result = []
+
+    while stack:
+        print(f'{stack=}')
+        current, open_count, close_count = stack.pop()
+        
+        # If we've used all pairs, add to the result
+        if open_count == pairs and close_count == pairs:
+            result.append(current)
+            continue
+        
+        # If open brackets can still be added
+        if open_count < pairs:
+            stack.append((current + "(", open_count + 1, close_count))
+        
+        # If closing brackets can still balance the string
+        if close_count < open_count:
+            stack.append((current + ")", open_count, close_count + 1))
+    
+    return result
+
+# Example Usage:
+print(MakeBrackets(6))  # For 6 brackets (3 pairs)
