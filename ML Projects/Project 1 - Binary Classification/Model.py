@@ -5,15 +5,20 @@ from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 from sklearn.utils.class_weight import compute_sample_weight
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report,precision_score, recall_score
-from xgboost import XGBClassifier 
+# from xgboost import XGBClassifier 
+from sklearn import preprocessing
+from sklearn.metrics import roc_curve, auc,f1_score,roc_auc_score
+
+
+
 class MLModelBuild:
 
 
     def __init__(self,Modelname):
-        ModelName=Modelname
+        self.ModelName=Modelname
 
 
-    def Split(self,ModelName, X , Y , Size=0.2 , state=42):
+    def Data_Split(self,X , Y , Size=0.2 , state=42):
 
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=Size, random_state=state)
 
@@ -22,7 +27,7 @@ class MLModelBuild:
 
     def Call_Model(self):
 
-        if self.ModelName=='Dtree_Model_clf':
+        if self.ModelName=='Dtree':
 
             return  DecisionTreeClassifier(criterion='entropy',
                                                 max_depth=6,
@@ -43,58 +48,57 @@ class MLModelBuild:
                 class_weight='balanced'    
             )
         elif self.ModelName=='XGBoost':
+            pass
 
-            return  XGBClassifier( 
-                learning_rate =0.1,
-                n_estimators=100,
-                max_depth=7,
-                min_child_weight=0.5,
-                gamma=5,
-                subsample=1,
-                colsample_bytree=0.4,
-                objective= 'binary:logistic',
-                nthread=4 , 
-                scale_pos_weight=1,
-                seed=27,
-                eval_metric='auc')
-
-
-        def Fit_Model(self,X_train,y_train,X_test,y_test,custom_threshold=0.25):
+            # return  XGBClassifier( 
+            #     learning_rate =0.1,
+            #     n_estimators=100,
+            #     max_depth=7,
+            #     min_child_weight=0.5,
+            #     gamma=5,
+            #     subsample=1,
+            #     colsample_bytree=0.4,
+            #     objective= 'binary:logistic',
+            #     nthread=4 , 
+            #     scale_pos_weight=1,
+            #     seed=27,
+            #     eval_metric='auc')
 
 
-            if self.ModelName=='Dtree':
+    def Call_Fit_Model(self,X , Y ,custom_threshold=0.25):
+            Model=self.Call_Model()
+            lab = preprocessing.LabelEncoder()
+            Y = lab.fit_transform(Y)
+            predicted_class1=None
+            Model.fit(X, Y)
+       
 
-                Classifier = self.Call_Model()
-                Classifier.fit(X_train, y_train)
-                y_pred = Classifier.predict(X_test)
-                y_pred_proba=Classifier.predict_proba(X_test)
-                predicted_class1 = (y_pred_proba[:, 1] >= custom_threshold).astype(int)
+            return Model
+
+        #Confusion matrix 
+    def AllModel_Metrics(self,y_test,predicted_class):
+
+                        # Calculate accuracy [Built in function]
+
+            print(f'\n-------SPLIT SET PERFORMANCE ------\n')
+            accuracy = accuracy_score(y_test, predicted_class)
+            print("Accuracy:", accuracy)
+            # Calculate precision
+            precision = precision_score(y_test, predicted_class)
+            print("Precision:", precision)
+            # Calculate recall
+            recall = recall_score(y_test, predicted_class)
+            print("Recall:", recall)
+
+            f1 = f1_score(y_test, predicted_class)
+            print("F1 Score:", f1)
+            # Calculate AUC
+            auc = roc_auc_score(y_test, predicted_class)
+            print("AUC:", auc)
+
+            print(confusion_matrix(y_test, predicted_class))
 
 
-            elif self.ModelName=='RandomForest':
-
-                Classifier = self.Call_Model()
-                Classifier.fit(X_train, y_train)
-                y_pred = Classifier.predict(X_test)
-                y_pred_proba=Classifier.predict_proba(X_test)
-                predicted_class1 = (y_pred_proba[:, 1] >= custom_threshold).astype(int)
-
-            elif self.ModelName=='XGBoost':
-
-                Classifier = self.Call_Model()
-                Classifier.fit(X_train, y_train)
-                y_pred = Classifier.predict(X_test)
-                y_pred_proba=Classifier.predict_proba(X_test)
-                predicted_class1 = (y_pred_proba[:, 1] >= custom_threshold).astype(int)
-
-#Confusion matrix 
-
-
-
-#Feature Importance 
-if Model=='Dtree':
-    feature_importances = Dtree_Model_clf.feature_importances_
-elif Model=='RandomForest':
-    feature_importances = RF_Model_clf.feature_importances_
-elif Model=='XGBoost':
-    feature_importances = XGBModel.feature_importances_
+    def Feature_Importance(self):
+            #Feature Importance 
+            return  self.Call_Model().feature_importances_

@@ -3,8 +3,9 @@ import numpy as np
 import pandas as pd
 from scipy.stats import kurtosis
 from scipy.stats import skew
+
 from MasterFunctions_V1 import *
-# ML Libs 
+# Ml Libs 
 from sklearn.tree import DecisionTreeClassifier,DecisionTreeRegressor
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -12,9 +13,11 @@ from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 from sklearn.utils.class_weight import compute_sample_weight
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report,precision_score, recall_score
+
 # XGB Specific Libs 
 from xgboost import XGBClassifier 
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, precision_score, recall_score
+
 
 #--------- Step1 : Source ------------------------------------------------------
 
@@ -79,6 +82,8 @@ Source=SourceRaw[SelectedFeatures]
 #--------- Step 5 : Correlation  ------------------------------------------------------
 
 
+
+Source=Source
 spearman_corr = Source.corr(method='spearman')
 CorrelationDF=pd.DataFrame()
 CorrelatedList,CorrelationDF=CorrAttributesList(Source,'Target',0.02)
@@ -102,6 +107,8 @@ Y=Source['Target']
 
 
 
+X['TotalCharges'] = pd.to_numeric(X['TotalCharges'], errors='coerce', downcast='float')
+X = X.fillna(X.median())
 
 
 # Random train test split And Model Build
