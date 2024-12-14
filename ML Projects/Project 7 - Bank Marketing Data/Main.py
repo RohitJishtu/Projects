@@ -157,17 +157,24 @@ model_params = model.get_params()
 print("Model Parameters:", model_params)
 
 # Start a new MLflow run
-with mlflow.start_run():
-    # Log the model to MLflow
-    mlflow.sklearn.log_model(sk_model=model, artifact_path="model", registered_model_name="BankMarketing_12Dec_DtreeModel")
+# with mlflow.start_run():
+#     # Log the model to MLflow
+#     mlflow.sklearn.log_model(sk_model=model, artifact_path="model", registered_model_name="BankMarketing_12Dec_DtreeModel")
     
-    # Optionally log other parameters and metrics
-    mlflow.log_param("max_depth", model_params)
-    mlflow.log_metrics({
-            'accuracy': report['accuracy'],
-            'recall_class_1': report['1']['recall'],
-            'recall_class_0': report['0']['recall'],
-            'f1_score_macro': report['macro avg']['f1-score']
-        })  
-    mlflow.sklearn.log_model(model, "Decision Tree Based Model") 
-print("Model logged to MLflow.")
+#     # Optionally log other parameters and metrics
+#     mlflow.log_param("max_depth", model_params)
+#     mlflow.log_metrics({
+#             'accuracy': report['accuracy'],
+#             'recall_class_1': report['1']['recall'],
+#             'recall_class_0': report['0']['recall'],
+#             'f1_score_macro': report['macro avg']['f1-score']
+#         })  
+#     mlflow.sklearn.log_model(model, "Decision Tree Based Model") 
+# print("Model logged to MLflow.")
+
+
+#--------- Step 8 : Export The Model   ------------------------------------------------------
+from joblib import dump
+dump(ModelObject, "BankDtreeModel.joblib")
+FeatureList_df=pd.DataFrame(FeatureList)
+FeatureList_df.to_csv('MLFeatureList.csv')

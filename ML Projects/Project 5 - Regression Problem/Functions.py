@@ -1,4 +1,4 @@
-# %%
+
 import os
 import numpy as np
 import pandas as pd
@@ -107,10 +107,10 @@ def CalBasicStats(Source_DF,type):
 # outdf_numeric = CalBasicStats(Sourcedf,'numeric')
 # outdf_nonnumeric = CalBasicStats(Sourcedf,'Non-numeric')
 
-# %% [markdown]
+
 # # Func 3: Handling Missing values and outliers 
 
-# %%
+
 # Distribution Plots for all variables 
 def CustomPlots(data,plot='hist'):
     colslist=data.columns.to_list()
@@ -136,7 +136,7 @@ def CustomPlots(data,plot='hist'):
 
     plt.tight_layout()
 
-# %%
+
 def remove_outliers_iqr(data_frame, column_name):
     # Calculate the IQR for the specified column
     Q1 = data_frame[column_name].quantile(0.25)
@@ -185,13 +185,13 @@ def remove_highly_correlated_features(df, threshold):
 
 
 
-# %% [markdown]
+
 # # Func5 : non Numeric Values Correaltion and (or label encoding)
 
-# %% [markdown]
+
 # # Func6 : Bi Variate using Decision Tree
 
-# %%
+
 def RangeCalc(min,max):
     if min==max:
             return min
@@ -348,13 +348,13 @@ def PlotDtreeGraph2(data,Prefix=''):
     return display(chart)
 
 
-# %% [markdown]
+
 # # Func7 : Bivariate using Bars (or scatter)
 
-# %% [markdown]
+
 # # Func 8 : Model Building 
 
-# %%
+
 def plot_ConfusionMatrix(cm):
     bright_green_colormap = LinearSegmentedColormap.from_list(
         'bright_green', [(0, '#E5F5E0'), (0.5, '#80B6A1'), (1, '#293E40')])

@@ -1,6 +1,6 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
+# To add a new cell, type ''
+# To add a new markdown cell, type ''
+
 # Import Libs
 
 import sys
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from Functions import *
 
 
-# %%
+
 # # Creating connection to the database 
 # you can find this data set at Kaggle serach with Amazon food review Database 
 # https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
@@ -22,14 +22,14 @@ from Functions import *
 conn=sqlite3.connect('/Users/rohit.jishtu/Documents/My Projects/GIt Bkp/Projects/Deep Learning/NLP/Amazon Food Review/amazon_reviews/database.sqlite')
 
 
-# %%
+
 SourceDf= pd.read_sql("select * from reviews",conn)
 SourceDf.head(5)
 
-# %% [markdown]
+
 # # Step1: Labeling and Target identification
 
-# %%
+
 plt.hist(SourceDf['Score'])
 SourceDf['Score'].value_counts().sort_index()
 
@@ -37,23 +37,23 @@ SourceDf['Score'].value_counts().sort_index()
 SourceDf=SourceDf[SourceDf['Score']!=3]
 
 
-# %%
+
 SourceDf['Rating']=SourceDf['Score'].apply(lambda x: 'Positive' if x >=4 else 'Negative')
 SourceDf['Rating'].value_counts()
 # plt.hist(SourceDf['Rating'])
 
 
-# %%
+
 SourceDf[(SourceDf['Rating']=='Negative') & (SourceDf['ProfileName']=='Jeanne Tomassi')]
 
-# %% [markdown]
+
 # # Step 2 : Data Cleaning
 
-# %%
+
 SourceDf.shape
 
 
-# %%
+
 # [[ASIIN:B007PA32L2 Green Mountain Coffee, Pumpkin Spice K-Cup packs for Keurig Brewers, 
 #   50 count]]<br />I am so very disappointed in the lack of flavor and aroma 
 # in the new packaging of the Pumpkin spice K-cup packs.<br />The packaging is different and it says "light roast".  
@@ -61,22 +61,22 @@ SourceDf.shape
 # I really hope they bring back the original flavor!!! What a shame!!!
 
 
-# %%
+
 # Finding the same review by a user and seeing of they are repeating 
 Groupdata=SourceDf.groupby(['UserId','Text','ProductId'])['Text'].agg(['count']).reset_index().sort_values(by=['count'],ascending=False)
 
 
-# %%
+
 SourceDf = SourceDf.drop_duplicates(subset=['UserId','Text','ProductId'],keep='first')
 
 
-# %%
+
 # (525814, 11) Before RemovinG Duplicates 
 # (524587, 11) After RemovinG Duplicates 
 SourceDf.columns
 
 
-# %%
+
 numeric_stats=CalBasicStats(SourceDf,'numeric')
 NONnumeric_stats=CalBasicStats(SourceDf,'nonnumeric')
 
@@ -86,7 +86,7 @@ NONnumeric_stats=CalBasicStats(SourceDf,'nonnumeric')
 # plt.hist(SourceDf['HelpfulnessDenominator'],bins=5)
 
 
-# %%
+
 Targetdf=SourceDf.groupby(['Rating'])['Id'].count().reset_index()
 Targetdf['RatingPercentage'] = Targetdf['Id']/sum(Targetdf['Id'])
 print(SourceDf['Rating'].value_counts()/SourceDf.shape[0])
@@ -102,13 +102,13 @@ plt.ylabel('Percentage')
 plt.title('Target Distribution')
 
 
-# %%
+
 Targetdf
 
-# %% [markdown]
+
 # # Step 3: Text Preprocessing 
 
-# %%
+
 # Text Cleaning 
 # Tokensisation 
 # Stop word removal 
@@ -116,7 +116,7 @@ Targetdf
 # lemmetisation 
 
 
-# %%
+
 import nltk
 import re 
 from nltk.tokenize import word_tokenize,sent_tokenize
@@ -125,13 +125,13 @@ from nltk.stem import SnowballStemmer , PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 
 
-# %%
+
 text="""- Excellent cuts of meat with no tendons.<br />- Very tasty. Just the right mix of spices.<br />- No added MSG 
 and no added sugar!<br />- Convenient small snack-size bags.<br /><br />The best jerky I've ever encountered.
 """
 
 
-# %%
+
 def Preprocessing(inputdata):
 
     # Activity 1 : Text Cleaning using regex 
@@ -181,39 +181,39 @@ def Preprocessing(inputdata):
  
 
 
-# %%
+
 # cleanedtext= Preprocessing(text)
 # word_tokenize(clean_text_1)
 
 
-# %%
+
 # Applying All preprocess to All the text column in data frame
 
 SourceDf['Processed_Text']=  SourceDf['Text'].apply(lambda x : Preprocessing(x))
 
-# %% [markdown]
+
 # # Step 4 : Bag of Words 
 
-# %%
+
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-# %%
+
 CountVec=CountVectorizer(max_features=1000)
 dtm_sparse_matrix1 =CountVec.fit_transform(SourceDf['Processed_Text'])
 
 dtm_sparse_matrix1.toarray()
 
 
-# %%
+
 CountVec.get_feature_names_out()[1:100]
 
-# %% [markdown]
+
 # 
-# %% [markdown]
+
 # # Step 5 :Additional Dimension using BI Grams and Tri Grams
 
-# %%
+
 CountVec=CountVectorizer(ngram_range=(1,3),min_df=0.1,max_df=0.99)
 dtm_sparse_matrix2=CountVec.fit_transform(SourceDf['Processed_Text'])
 
@@ -221,15 +221,15 @@ dtm_sparse_matrix2=CountVec.fit_transform(SourceDf['Processed_Text'])
 # 99% percent repetaing terms removed 
 
 
-# %%
+
 CountVec.get_feature_names_out()
 
-# %% [markdown]
+
 # 
-# %% [markdown]
+
 # # Step  6 : TF - IDF  Matrix 
 
-# %%
+
 # How is this Diefferent from BOQ
 
 # TF = Occurance of terms in document  / Total terms in document 
@@ -241,42 +241,42 @@ CountVec.get_feature_names_out()
 # TF-IDF= tf * idf  
 
 
-# %%
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-# %%
+
 tfidf=TfidfVectorizer(ngram_range=(1,2),min_df=0.005)
 tfidf_matrix = tfidf.fit_transform(SourceDf['Processed_Text'])
 
 
 tfidf_matrix
 
-# %% [markdown]
+
 # 
 
-# %%
+
 CountVec.get_feature_names_out()
 
-# %% [markdown]
+
 # # Step 7 :Model Building  - SVM Classifier 
 
-# %%
+
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
 
 
-# %%
+
 SourceDf['Target']=SourceDf['Rating'].map({'Positive':1,'Negative':0})
 
 
-# %%
+
 X=SourceDf['Processed_Text']
 Y=SourceDf['Target']
 
 
-# %%
+
 X_train,X_test,Y_train,y_test=train_test_split(X,Y,test_size=0.30,random_state=12)
 X_train.shape,
 X_test.shape
@@ -284,39 +284,39 @@ Y_train.shape
 y_test.shape
 
 
-# %%
+
 # We will use tfidf to transform data to tf IDF 
 X_Train_tfidf=tfidf.fit_transform(X_train)
 X_Test_tfidf= tfidf.transform(X_test)
 
 
-# %%
+
 SVM_classifier = LinearSVC(C=1,penalty='l1',dual=False,random_state=12)
 
 
-# %%
+
 SVM_classifier.fit(X_Train_tfidf,Y_train)
 
 
-# %%
+
 Preds=SVM_classifier.predict(X_Test_tfidf)
 
 
-# %%
+
 pd.crosstab(y_test,Preds)
 
-# %% [markdown]
+
 # # Step 8 :Model Matrix 
 
-# %%
+
 pd.crosstab(y_test,Preds)
 
 
-# %%
+
 print(classification_report(y_test,Preds))
 
 
-# %%
+
 
 
 

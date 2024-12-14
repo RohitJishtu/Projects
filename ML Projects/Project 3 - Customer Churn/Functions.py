@@ -1,4 +1,4 @@
-# %%
+
 import os
 import numpy as np
 import pandas as pd
@@ -35,18 +35,18 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.metrics import confusion_matrix, accuracy_score,precision_score, recall_score
 
-# %%
+
 # Source the data 
 
 
 
-# %% [markdown]
+
 # # Func 1:Target Distribution
 
-# %% [markdown]
+
 # # Func2: Function to Generate the stats pf The Data 
 
-# %%
+
 
 
 numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
@@ -121,10 +121,10 @@ def CalBasicStats(Source_DF,type):
 # outdf_numeric = CalBasicStats(Sourcedf,'numeric')
 # outdf_nonnumeric = CalBasicStats(Sourcedf,'Non-numeric')
 
-# %% [markdown]
+
 # # Func 3: Handling Missing values and outliers 
 
-# %%
+
 # Distribution Plots for all variables 
 def CustomPlots(data,plot='hist'):
     colslist=data.columns.to_list()
@@ -150,7 +150,7 @@ def CustomPlots(data,plot='hist'):
 
     plt.tight_layout()
 
-# %%
+
 def remove_outliers_iqr(data_frame, column_name):
     # Calculate the IQR for the specified column
     Q1 = data_frame[column_name].quantile(0.25)
@@ -165,10 +165,10 @@ def remove_outliers_iqr(data_frame, column_name):
 
     return DF
 
-# %% [markdown]
+
 # # Func4: Correlation Plots (Numeric Selection)
 
-# %%
+
 def CorrAttributesList(data,Target,ThreshHold):
     EDA_df=data 
     correlation_values_P= EDA_df.corr(method='pearson')[Target]
@@ -202,13 +202,13 @@ def remove_highly_correlated_features(df, threshold):
 
 
 
-# %% [markdown]
+
 # # Func5 : non Numeric Values Correaltion and (or label encoding)
 
-# %% [markdown]
+
 # # Func6 : Bi Variate using Decision Tree
 
-# %%
+
 def RangeCalc(min,max):
     if min==max:
             return min
@@ -365,13 +365,13 @@ def PlotDtreeGraph2(data,Prefix=''):
     return display(chart)
 
 
-# %% [markdown]
+
 # # Func7 : Bivariate using Bars (or scatter)
 
-# %% [markdown]
+
 # # Func 8 : Model Building 
 
-# %%
+
 def plot_ConfusionMatrix(cm):
     bright_green_colormap = LinearSegmentedColormap.from_list(
         'bright_green', [(0, '#E5F5E0'), (0.5, '#80B6A1'), (1, '#293E40')])
@@ -394,7 +394,7 @@ def plot_ConfusionMatrix(cm):
 
     plt.show()
 
-# %% [markdown]
+
 # # Func 9 : Eval Matrix 
 # 
 # <!-- # def plot_ConfusionMatrix(cm):
@@ -419,16 +419,16 @@ def plot_ConfusionMatrix(cm):
 # 
 # #     plt.show() -->
 
-# %% [markdown]
+
 # # Func 10 : Shapley matrix 
 
-# %% [markdown]
+
 # # Func 11 : Feature Importance  
 
-# %% [markdown]
+
 # # Func 12 : Summary of Results 
 
-# %% [markdown]
+
 # 
 
 

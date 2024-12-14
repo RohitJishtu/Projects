@@ -208,26 +208,32 @@ print(f'\n# Step 6: Step 6: Model Evaluation-\n')
 
 # Step 8: Log Model and Metrics with MLflow------------------------------------------------------------------------------------------------------------------------------------
 
-def log_to_mlflow(model, model_name, X_train, Y_train, report):
-    mlflow.set_tracking_uri("/Users/rohit.jishtu/Documents/My Projects/Project Personal/MLFlow/mlruns")
-    mlflow.set_experiment("BankMarketingData")
+# def log_to_mlflow(model, model_name, X_train, Y_train, report):
+#     mlflow.set_tracking_uri("/Users/rohit.jishtu/Documents/My Projects/Project Personal/MLFlow/mlruns")
+#     mlflow.set_experiment("BankMarketingData")
 
-    # Start MLflow run
-    with mlflow.start_run():
-        # Log the model to MLflow
-        mlflow.pytorch.log_model(model, "model", registered_model_name=model_name)
+#     # Start MLflow run
+#     with mlflow.start_run():
+#         # Log the model to MLflow
+#         mlflow.pytorch.log_model(model, "model", registered_model_name=model_name)
 
-        # Log metrics
-        mlflow.log_metrics({
-            'accuracy': report['accuracy'],
-            'recall_class_1': report['1.0']['recall'],
-            'recall_class_0': report['0.0']['recall'],
-            'f1_score_macro': report['macro avg']['f1-score']
-        })
+#         # Log metrics
+#         mlflow.log_metrics({
+#             'accuracy': report['accuracy'],
+#             'recall_class_1': report['1.0']['recall'],
+#             'recall_class_0': report['0.0']['recall'],
+#             'f1_score_macro': report['macro avg']['f1-score']
+#         })
 
-    logger.info("Model logged to MLflow.")
+#     logger.info("Model logged to MLflow.")
 
-log_to_mlflow(model, "BankMarketing_12Dec_NNModel", X_train, Y_train, report)
+# log_to_mlflow(model, "BankMarketing_12Dec_NNModel", X_train, Y_train, report)
 
 
+# Step 9: Export The Model------------------------------------------------------------------------------------------------------------------------------------
+
+torch.save(model.state_dict(), 'BAnkData_NN_model.pth')
+FeatureList_df=pd.DataFrame(FeatureList)
+FeatureList_df.to_csv('FeatureList_df.csv')
 print(f'\n# EOF \n')
+
