@@ -1,0 +1,25 @@
+I have always had a passion for data and playing with numbers since childhood. I excelled in basic stats, outpacing my peers in calculations, and even managed scoreboards during our play sessions back in the day.
+
+In modern times, there is a significant emphasis on data and AI as a valuable asset. We discuss coupling it with modern processing systems to solve problems. We've come a long way in Machine learning in last decade , transitioning from classical ML to more sophisticated (dare I say) models , the metrics and selling points have surely changed.
+
+Apart from being a AI enthusiast, I specialise in building scalable ML & data pipelines systems for prediction systems, which form the backbone of modern Enterprise Analytics solutions. I design and deploy Machine Learning systems capable of handling large volumes of transactions, making me an asset to my organisation for solving any data-related challenges. 
+
+Recent years I have focused my attention on learning how to design scalable AI systems or Agentic AI systems , how do we leverage the AI infrastrurte to solve problems , speed up the answers and make an impact for organisation.
+
+My love for programming has flourished in the latter part of my career, leading to improved problem-solving skills , programming landscape has evolved for the good , but people's(include me) problem solving skills seems to have stayed saturated with fixed mindset and infirmation availability. I try to read more and not get caught in catching uo mindlessly with AI banter.
+
+I am enthusiastic about reading and writing(amateur) and have been leading the Book Club in my current Org, It requires a lot of effort to write and I believe it’s our responsibility to keep the raw art of reading alive, let’s not let AI influence our judgement for now.
+
+#AgenticAI #AI #MachineLearning #DataScience #ArtificialIntelligence #Programming #ResearchAndDevelopment 
+#EnterpriseAI
+
+
+"Leading projects and mentoring new recruits, fostering a culture that nurtures talent, and leveraging technologies such as Azure ML, Kubernetes, Docker, and Databricks.
+
+Writing production-grade code, optimizing queries, and cleaning data, followed by researching, developing, and deploying machine learning solutions utilizing deep learning, NLP, and transformers.
+
+Deploying models into production and securing stakeholder approvals on successful outcomes.
+
+Serving as the 'First Line of Defense' in addressing data quality issues, ensuring the reliability and robustness of data pipelines during high-pressure periods.
+
+Technologies: Python, SQL, Azure ML, Kubernetes, Docker, Databricks, PyTorch, Scikit-learn, Snowflake, MLOps, NLP, Transformers, A/B Testing, Hugging Face, Elasticsearch, CI/CD pipelines."

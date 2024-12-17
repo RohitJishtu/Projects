@@ -66,4 +66,10 @@ Database Snowflake - 25%
 Azure ML for LLM API hosting - 40% 
 Dashboarding/UI -  20%
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+Describe the impact you have had on the company and customers of your current or most recent role?*
+
+Give an example of an ML project that you led. Specify what parts of this you did by yourself*
