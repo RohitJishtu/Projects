@@ -40,40 +40,46 @@ Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product M
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------
 JobDecription = {
-Overview
-Security represents the most critical priorities for our customers in a world awash in digital threats, regulatory scrutiny, and estate complexity. Microsoft Security aspires to make the world a safer place for all. We want to reshape security and empower every user, customer, and developer with a security cloud that protects them with end to end, simplified solutions.
+About the job
+Are you excited to work with AI in a strong professional environment?
 
-The Microsoft Security organization accelerates Microsoft’s mission and bold ambitions to ensure that our company and industry is securing digital technology platforms, devices, and clouds in our customers’ heterogeneous environments, as well as ensuring the security of our own internal estate. Our culture is centered on embracing a growth mindset, a theme of inspiring excellence, and encouraging teams and leaders to bring their best each day. In doing so, we create life-changing innovations that impact billions of lives around the world.
+At Storebrand, we truly believe in the potential of AI. Our commitment to leveraging advanced technology, machine learning and AI is key to creating innovative business solutions and enhancing customer experiences. We invite you to join our journey as a Machine Learning Engineer within the Center of Excellence for Data & AI.
 
- 
+The Center of Excellence for Data & AI is centrally and strategically positioned within Storebrand, dedicated to influencing and driving AI initiatives across Storebrand’s business areas. You will be part of a community of other data analysts, scientists and engineers in our unit, and collaborate closely with developers, product managers, and domain experts from the rest of the organization in cross-functional teams.
 
-Microsoft Purview's suite of products includes data security, insider risk management, legal eDiscovery, communication compliance, and data lifecycle management, supported by Copilot for Security innovations. The Data and Applied Sciences Research team leads the way in pioneering AI and machine learning innovations, specializing in deep learning, NLP, large language models (LLMs/GPT), graph models, AutoGPTs, chatbots, etc. Our research is dedicated to pushing the boundaries of technology, anticipating future needs, and seamlessly integrating AI innovations into our product suite. We aim to deliver groundbreaking solutions that not only address current demands but also establish the groundwork for transformative advancements in data and applied sciences.
+Your role will have you working with a range of cutting-edge technologies. We use Google Cloud Platform and Microsoft Azure as our cloud service providers, and we deploy both Databricks and Snowflake for data processing, analytics and AI. We are also using dbt cloud as a transformation tool, Dagster for orchestration, MLflow for MLOps and model lifecycle management, GitHub for version control and GitHub Actions for CI/CD.
 
-Qualifications
-Experience developing and deploying large scale AI applications and generative AI applications.
-Knowledge of machine learning algorithms and concepts (e.g., supervised learning, unsupervised learning, deep learning) as applied to generative AI.
-Familiarity with data science tools and techniques.
-10+ years of professional experience in a technical role building and deploying ML solutions at scale for real-world problems
-Bachelors/Master’s degree with relevant course work toward Computer Science, Data Science, Statistics, Machine Learning, Data Mining, Prompt Engineering and equivalent work experience.
-Contributions to open-source generative AI projects.
-Excellent cross-group and interpersonal skills, with the ability to articulate solutions.
-Additional experience in any of the areas like cyber security, fraud detection, regulations, business processes in enterprises, legal discovery, etc., would be beneficial, but not mandatory.
+What you will be doing:
 
+We spent much of the past year understanding and exploring generative AI and its uses, and believe that scaling and streamlining our AI initiatives will be important going forward. In addition to developing and deploying AI and machine learning models, you will therefore be working on improving our data and AI platform to help us create more robust and impactful AI solutions. This means that you will, for example, simplify working with structured and unstructured data, creating analytics pipelines and applications, evaluating and improving existing solutions in production.
 
-Responsibilities
-We are seeking an enthusiastic AI engineer who is passionate about the latest AI advancements, possesses a start-up mindset, and is willing to take on any challenge - from coding to UX development, model building, prompt engineering, and metric definition - to join our dynamic team.
+Some of the areas where AI plays a crucial role include preventing insurance fraud, optimizing internal processes, streamlining marketing and sales activities, enhancing our services and customer experiences, and enabling and increasing the efficiency of our workforce through AI-based tools and solutions.
 
- 
+Your work will primarily involve leveraging Generative AI within Google Cloud Platform and Microsoft Azure environments, along with using Databricks and Snowflake for data processing and machine learning model building. You will actively contribute to our MLOps framework, ensuring the robust deployment, monitoring, and maintenance of machine learning models from input data to end-user application. You will also be instrumental in exploring and integrating state-of-the-art technologies, such as Generative AI and advanced language models, to push the boundaries of what’s possible in our applications.
 
-Responsibilities include:
+Who are you?
 
-Design, develop, and implement robust and scalable software applications that utilize generative AI techniques.
-Integrate LLMs and NLP into software solutions for tasks such as text generation, summarization, translation, and question answering.
-Optimize generative AI models and their performance for specific use cases.
-Develop NLP pipelines for tasks like text classification, sentiment analysis, and named entity recognition.
-Collaborate with AI researchers and data scientists to explore new applications of generative AI.
-Stay up-to-date with the latest trends and technologies in generative AI.
+You are likely someone with a technical degree and a passion for machine learning and AI. We believe you are proficient in Python and/or other programming languages, as well as SQL. Hands-on experience with cloud-based environments, Databricks, Snowflake, GitHub, Docker, or dbt is beneficial, but not mandatory. Finally, we believe you are a problem-solver, comfortable working in collaborative settings, and eager to keep up with the latest trends in AI and machine learning.
 
+At Storebrand, you will be part of a dynamic environment where innovation and forward-thinking are at the forefront. If you are passionate about using your machine learning expertise to drive real business impact and enjoy working in a collaborative, tech-forward environment, we encourage you to apply.
+
+Why choose Storebrand?
+
+At Storebrand we encourage our employees to take up space and voice their opinions. We facilitate personal development and learning through continuous competence development in the form of professional groups, conferences, training, and innovation days.
+
+We believe in the value of having different perspectives and backgrounds in our organisation, and therefore work actively to create a social environment that is inclusive and diverse. We have been recognized for this work by, for example, the awarding of the SHE-index prize for 2023 and 2024, an equality index that measures and compares the gender balance in companies.
+
+We are based in Lysaker, centrally located near public transport, and with ample capacity for bicycle parking and changing rooms. We are also concerned about your health and have good agreements with doctors, psychologists, as well as occupational health services. Our premises also house a chiropractor/physiotherapist and a wide range of training opportunities through well-equipped training rooms and our own gymnasium.
+
+Furthermore, as an employee, you will enjoy a very good pension scheme, favourable insurances in addition to a subsidized employee loan for home purchase.
+
+Questions about the team or the role? Contact Ørjan Dale (Head of Analytics & AI) on orjan.dale.2@storebrand.no or +47 92854865.
+
+Application deadline: 12.01.2025.
+
+We look forward to hearing from you!
+
+Storebrand samarbeider med Semac for bakgrunnssjekk av aktuelle kandidater. Bakgrunnssjekken utføres etter samtykke fra deg som søker og innebærer at vi verifiserer CV og annen søknadsdokumentasjon i forbindelse med ansettelsen. I forbindelse med bakgrunnssjekk må politiattest fremlegges for stillinger som krever autorisasjon og/eller godkjenning av egnethet.
 }
  
   ------------------------------------------------------------------------------------------------
