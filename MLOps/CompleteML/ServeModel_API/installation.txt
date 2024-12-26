@@ -1,0 +1,4 @@
+python3 -m pip install torch
+python3 -m pip install flask numpy joblib
+
+python3 -m pip install streamlit

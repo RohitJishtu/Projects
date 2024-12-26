@@ -1,14 +1,10 @@
 # Projects
 
-Welcome to My Repository! This public codebase showcases solutions to coding challenges, machine learning projects, and practical tips for problem-solving.
+Welcome to my repository! Here you'll find a variety of machine learning, deep learning, and NLP projects, including binary classification, anomaly detection, customer churn, regression problems, RAG implementations, and more.
 
-With over 12 years of experience in IT, analytics, and machine learning, I’ve been passionate about turning complex data into actionable insights. My expertise lies in building scalable data pipelines and orchestrating end-to-end ML projects. Some highlights of my work include developing lead-scoring models and product recommendation systems that drive customer retention and optimize upselling.
+With 12+ years in IT and machine learning, I specialize in building scalable data pipelines and end-to-end ML systems. I’m also exploring fine-tuning Large Language Models (LLMs) for real-world business problems.
 
-In this rapidly evolving AI landscape, I’m particularly fascinated by fine-tuning Large Language Models (LLMs) to solve real-world business challenges. Having come to programming later in my career, I thrive on continuous learning and creative problem-solving.
-
-Beyond coding, I’m an avid reader, traveler, and philosopher at heart. I believe in a balance of technical rigor and creativity, and I hope to inspire others through my projects and ideas.
-
-Let’s learn and innovate together!
+Feel free to explore the code, contribute, and learn with me!
 
 # 💫 About Me:
 Machine Learning <br>Programming and Data Projects <br>
