@@ -62,3 +62,8 @@ Machine Learning <br>Programming and Data Projects <br>
 
 - [LinkedIn](https://www.linkedin.com/in/rohit-jishtu/)
 - [Resume](https://docs.google.com/document/d/1RvqLVzKyYgEudNnpeKH6ncGInxl4fYCuiKV7XSPZpGw/edit)
+
+
+
+
+python -m ipykernel install --user --name=FeatureImpactEnv --display-name "FeatureImpactEnv"

@@ -17,6 +17,12 @@ def compound_interest_rate(start_price, end_price, time, times_compounded):
     rate = times_compounded * ((end_price / start_price) ** (1 / (time * times_compounded)) - 1)
     return rate * 100  # Convert to percentage
 
+# Function to calculate compound interest rate
+def compound_interest_Value(start_price, rate, time, times_compounded):
+    end_price=0
+    end_price = start_price * (1 + rate / times_compounded) ** (times_compounded * time)
+    return end_price
+
 # Function to make a recommendation based on gain and rate
 def recommendation(gain, rate, dividend_per_share, time):
     # Thresholds for decision-making

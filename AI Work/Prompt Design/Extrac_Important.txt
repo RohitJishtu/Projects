@@ -1,106 +1,109 @@
 ------------------------------------------------
 ------------------------------------------------
 MyProfile ={
- ROHIT JISHTU
-AI & MACHINE LEARNING
-Hyderabad, India • +91-81423-92758
-jishturohit48@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
-12-year IT veteran with expertise in data pipelines, ML orchestration, and AI-driven solutions. Recognized for innovations in GEN AI, lead prioritization, churn prediction, and product recommendations. Passionate about programming, SQL, and leading AI/ML teams to drive strategic initiatives and foster innovation.
+ROHIT JISHTU 
+AI & Machine Learning
+Hyderabad, India • +91-81423-92758 
+jishtu.rohit@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
+
+13-years IT veteran with expertise in data pipelines, ML orchestration, and AI-driven solutions. Recognized for innovations in AI, lead prioritization, churn prediction, and product recommendations. Passionate about programming, SQL, and leading AI/ML teams to drive and build strategic initiatives and foster innovation.
 SKILLS & OTHER
-ML & AI: Python, Statistics, Machine Learning Algorithms , Deep learning (TensorFlow, Kera), BERT, NLP Platforms & Tools: Snowflake, Azure ML, Databricks, Kubernetes , Docker , Power BI
-Others: Data Warehousing, MLOps, SQL , RAG , Fiddler
+ML & AI: Python, PySpark, Statistics, Machine Learning Algorithms, NLP, Deep Learning (PyTorch, TensorFlow), LLMs, Generative AI, Multi-modal AI, Distributed Systems
+Agentic AI Skills: Autonomous Decision-Making, Multi-Agent Systems, Knowledge Representation (RAG, Knowledge Graphs),
+Platforms & Tools: Snowflake, Azure ML, AWS, GCP, Databricks, Kubernetes, Docker, Vertex AI, Hugging Face, Power BI, Airflow
+Others: Data Warehousing, MLOps (MLflow, Kubeflow), SQL, Explainable AI (Fiddler, SHAP), Feature Engineering, Real-time Data Pipelines
 KEY PROJECTS
+
+SalesEdge AI : Designed and implemented a CrewAI-powered platform to equip sales teams with AI-generated battle cards, personalized insights, and deal acceleration tools, optimizing engagement for 250k+ key contacts and shortening sales cycles.
 AI Feature Hub: Driving the evolution of Feature Hub by integrating LLM and RAG-based methods to create advanced AI features. Managing a massive feature store with over 50k features derived from 1000 tables and 100 data sources, processing terabytes of data for data researchers.
 Lead Prioritisation : Pioneered and implemented an organization-wide lead scoring system for 5m leads , driving a $170 million revenue increase and achieving a 400% boost in lead-to-deal conversion.
-Generative AI Sales Battle Cards : One stop shop , Strengthening sales reps with data-driven pitch materials, summarizing PDFs, interactions, and meeting notes for effective deal preparation for 250k key contacts , speeding up deal closure.
 Customer Churn : Achieved a 20% reduction in customer churn for subscription services through our ML solution, saving millions by leveraging usage data. The current model boasts an impressive 80% precision and 70% recall.
 Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
-Chat Bot Analyser: Developed and launched a cloud-based Python app, Transloom Insights, with a Streamlit interface. It handles LLM queries, evaluates outputs for speed, conciseness, and relevance, and ensures compliance with approved APIs. Achieved 100 MAUs within a week, earning leadership recognition.
-    Himachal Pradesh University, Shimla, IN Bachelor of Technology, Information Technology
+Chat Bot Analyser: Engineered and deployed Transloom Insights, an agentic cloud-based Python app with a Streamlit interface, empowering dynamic business queries, real-time output evaluation for speed, relevance, and compliance, achieving 100 MAUs within a week and catalyzing its transformation into AI Data Agent with leadership accolades.
 EDUCATION
+
+Himachal Pradesh University, Shimla, IN	2011
+Bachelor of Technology, Information Technology
 PROFESSIONAL EXPERIENCE
-2011
-model deployment and stakeholder approval, while challenges arise in ensuring data quality.
-● Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes , Docker & Databricks.
-● Diving into Deep Learning , NLP and Transformers to devise solutions with advanced Data Science techniques.
-● Leading the mentorship group for junior engineers , creating a culture for talent to flourish.
-ML Data Engineer - Accenture, Pune, IN 2014 – 2017
-● Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw data to
-meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code
-to write the most efficient SQL Solution , and building my SQL muscles quite a bit.
-Data Engineer and Analyst - Tech Mahindra, Bhubaneshwar, IN 2012 – 2014
-● This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating SAP Business Objects reports. Seeing the backend data model for the first time made me realize what I wanted to do
-CERTIFICATION DETAILS
-Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product Management, Databricks ML Development & Snowflake RAG Models & Implementation.
- Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN
-● Daily responsibilities include coding, query optimization, data cleaning, and developing ML models. Success involves
-2018 – Present
-   
+
+Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN 	  2018 – Present
+Daily responsibilities include coding, query optimization, data cleaning, and developing DL/ML models. Success involves model deployment and stakeholder approval, while challenges arise in ensuring data quality.
+Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes , Docker & Databricks.
+Diving into Deep Learning , NLP and Transformers to devise solutions with advanced Data Science techniques.
+Leading the mentorship group for junior engineers , creating a culture for talent to flourish.
+ML Data Engineer - Accenture, Pune, IN	2014 – 2017
+Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw data to meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code to  write the most efficient SQL Solution , and building my SQL muscles quite a bit.
+Data Engineer and Analyst - Tech Mahindra, Bhubaneshwar, IN	2012 – 2014
+This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating SAP Business Objects  reports. Seeing the backend data model for the first time made me realize what I wanted to do
+
+CERTIFICATION DETAILS 
+Multi AI Agent Systems with crewAI, Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product Management, Databricks ML Development & Snowflake RAG Models & Implementation.
+
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------
-JobDecription = {
-About the job
-Are you excited to work with AI in a strong professional environment?
+JobDecription = {Lead ML Engineer at Intuition Machines
+$90k – $120k
+Recruiter recently active
+Posted 3 months ago
+Remove
+Apply
+Intuition Machines builds enterprise security products with an AI/ML focus. We apply our research to systems that serve hundreds of millions of people, with a team distributed around the world. You are probably familiar with our best-known product, the hCaptcha security suite. Our approach is simple: low overhead, small teams, and rapid iteration.
 
-At Storebrand, we truly believe in the potential of AI. Our commitment to leveraging advanced technology, machine learning and AI is key to creating innovative business solutions and enhancing customer experiences. We invite you to join our journey as a Machine Learning Engineer within the Center of Excellence for Data & AI.
+We’re looking for a Lead Machine Learning Engineer with strong software engineering skills and a creative mindset for ML-focused problem-solving.
 
-The Center of Excellence for Data & AI is centrally and strategically positioned within Storebrand, dedicated to influencing and driving AI initiatives across Storebrand’s business areas. You will be part of a community of other data analysts, scientists and engineers in our unit, and collaborate closely with developers, product managers, and domain experts from the rest of the organization in cross-functional teams.
+What you'll do here:
 
-Your role will have you working with a range of cutting-edge technologies. We use Google Cloud Platform and Microsoft Azure as our cloud service providers, and we deploy both Databricks and Snowflake for data processing, analytics and AI. We are also using dbt cloud as a transformation tool, Dagster for orchestration, MLflow for MLOps and model lifecycle management, GitHub for version control and GitHub Actions for CI/CD.
+Lead large-scale ML projects and products from inception to production, overseeing the entire lifecycle from design and implementation to deployment and maintenance.
+Make key architectural decisions to ensure solutions are scalable, efficient, and maintainable while balancing business and technical constraints.
+Drive collaboration across ML and engineering teams to ensure product success, influencing technical discussions and decisions at all levels.
+Design and implement state-of-the-art machine learning pipelines and models that impact millions of users and generate real business value.
+Set technical standards and lead the development of scalable, testable, and high-performance applications.
+Provide leadership and mentorship to other ML engineers, fostering the growth of a strong Machine Learning Engineering organization.
+What you'll learn:
 
-What you will be doing:
+Work on systems that affect millions of users daily, scaling machine learning systems with billions of data points and millions of inferences per second.
+Gain experience in architecting and scaling advanced ML solutions for real-world challenges, moving beyond standard approaches from research papers.
+Have the opportunity to define technical strategy, contribute to significant ML advancements, and guide the future direction of ML systems at scale.
+What we are looking for:
 
-We spent much of the past year understanding and exploring generative AI and its uses, and believe that scaling and streamlining our AI initiatives will be important going forward. In addition to developing and deploying AI and machine learning models, you will therefore be working on improving our data and AI platform to help us create more robust and impactful AI solutions. This means that you will, for example, simplify working with structured and unstructured data, creating analytics pipelines and applications, evaluating and improving existing solutions in production.
+7+ years of experience building and maintaining large-scale production ML systems, with a focus on performance, scalability, and reliability.
+Proven experience as the owner or significant contributor to products used by tens of thousands of customers, with the ability to make complex design decisions.
+Expertise in machine learning algorithms, productionizing ML models, and scaling systems to handle large data volumes.
+Strong problem-solving skills with creative approaches to overcoming technical challenges.
+Experience leading technical discussions, driving decisions, and setting technical standards for a team.
+Excellent written and verbal communication skills, with the ability to articulate complex technical topics to both technical and non-technical stakeholders.
+Familiarity with modern orchestration platforms (Kubernetes, containerization, microservice design) and distributed systems.
+Ability to identify, define, and segment complex research problems and drive innovative solutions that align with business and technical goals.
+Our tech stack includes Python, Kubernetes, Clickhouse, Argo, Kafka.
 
-Some of the areas where AI plays a crucial role include preventing insurance fraud, optimizing internal processes, streamlining marketing and sales activities, enhancing our services and customer experiences, and enabling and increasing the efficiency of our workforce through AI-based tools and solutions.
+What we offer:
 
-Your work will primarily involve leveraging Generative AI within Google Cloud Platform and Microsoft Azure environments, along with using Databricks and Snowflake for data processing and machine learning model building. You will actively contribute to our MLOps framework, ensuring the robust deployment, monitoring, and maintenance of machine learning models from input data to end-user application. You will also be instrumental in exploring and integrating state-of-the-art technologies, such as Generative AI and advanced language models, to push the boundaries of what’s possible in our applications.
-
-Who are you?
-
-You are likely someone with a technical degree and a passion for machine learning and AI. We believe you are proficient in Python and/or other programming languages, as well as SQL. Hands-on experience with cloud-based environments, Databricks, Snowflake, GitHub, Docker, or dbt is beneficial, but not mandatory. Finally, we believe you are a problem-solver, comfortable working in collaborative settings, and eager to keep up with the latest trends in AI and machine learning.
-
-At Storebrand, you will be part of a dynamic environment where innovation and forward-thinking are at the forefront. If you are passionate about using your machine learning expertise to drive real business impact and enjoy working in a collaborative, tech-forward environment, we encourage you to apply.
-
-Why choose Storebrand?
-
-At Storebrand we encourage our employees to take up space and voice their opinions. We facilitate personal development and learning through continuous competence development in the form of professional groups, conferences, training, and innovation days.
-
-We believe in the value of having different perspectives and backgrounds in our organisation, and therefore work actively to create a social environment that is inclusive and diverse. We have been recognized for this work by, for example, the awarding of the SHE-index prize for 2023 and 2024, an equality index that measures and compares the gender balance in companies.
-
-We are based in Lysaker, centrally located near public transport, and with ample capacity for bicycle parking and changing rooms. We are also concerned about your health and have good agreements with doctors, psychologists, as well as occupational health services. Our premises also house a chiropractor/physiotherapist and a wide range of training opportunities through well-equipped training rooms and our own gymnasium.
-
-Furthermore, as an employee, you will enjoy a very good pension scheme, favourable insurances in addition to a subsidized employee loan for home purchase.
-
-Questions about the team or the role? Contact Ørjan Dale (Head of Analytics & AI) on orjan.dale.2@storebrand.no or +47 92854865.
-
-Application deadline: 12.01.2025.
-
-We look forward to hearing from you!
-
-Storebrand samarbeider med Semac for bakgrunnssjekk av aktuelle kandidater. Bakgrunnssjekken utføres etter samtykke fra deg som søker og innebærer at vi verifiserer CV og annen søknadsdokumentasjon i forbindelse med ansettelsen. I forbindelse med bakgrunnssjekk må politiattest fremlegges for stillinger som krever autorisasjon og/eller godkjenning av egnethet.
-}
+Fully remote position with flexible working hours.
+An inspiring team of colleagues spread all over the world.
+Pleasant, modern development and deployment workflows: ship early, ship often.
+High impact: lots of users, happy customers, high growth, and cutting edge R&D.
+Flat organization, direct interaction with customer teams.
+We celebrate diversity and are committed to creating an inclusive environment for all members of our team.}
  
   ------------------------------------------------------------------------------------------------
 Story={
 
-I have always had a passion for data and playing with numbers since childhood. I excelled in basic stats, outpacing my peers in calculations, and even managed scoreboards during our play sessions back in the day.
+My passion for data and numbers began in childhood, where I excelled in basic statistics and outpaced my peers in calculations. I even managed scoreboards during play sessions, sparking my early interest in data. Over time, this passion evolved into a career focused on AI and Machine Learning, where I specialise in building scalable ML and data pipeline systems for predictions, forming the backbone of modern Enterprise Analytics solutions.
 
-In modern times, there is a significant emphasis on data as a valuable asset. We discuss coupling it with modern processing systems to solve problems. We've come a long way in analytics, transitioning from reporting on the past to precision in understanding and utilising historical data.
+In the last decade, we’ve seen a significant shift from classical ML models to more sophisticated AI systems (dare I say), and I’ve been at the forefront of this evolution. My recent focus has been on designing scalable, agentic AI systems that leverage infrastructure to solve problems more efficiently, speeding up responses and creating impactful solutions for my org.
 
-My love for programming has flourished in the latter part of my career, leading to improved problem-solving skills. I continuously adapt my approaches to problem-solving, recognising that learning is constant in the technological world where change is inevitable.
+As a lover of programming, I’ve continually honed my problem-solving skills, recognising how the programming landscape has evolved for the better. However, I strive to avoid getting caught up in fleeting AI trends and instead focus on deepening my understanding of the technology.
 
-I am enthusiastic about reading and writing(amateur) and have been leading the Book Club in my current Org, It requires a lot of effort to write and I believe it’s our responsibility to keep the raw art of reading alive, let’s not let AI influence our judgement for now.
+Outside of work, I’m passionate about reading and writing (amateur), and involved in a Book Club at my organisation. I believe it’s important to preserve the raw art of reading and not let AI influence our judgment on this timeless practice.
 
-Beyond my professional pursuits, I am an ardent lover of books and reading. My fascination with numbers and data has led me to explore and self-teach extensively in Machine Learning. Early in my career, working closely with Data Scientists provided me with a unique context on how to approach problems strategically, emphasizing thoughtful analysis before diving into coding. My unique selling proposition lies in my vast industry experience with SQL and Spark, collaborating with diverse teams to understand data intricacies and solve complex problems, complementing my expertise in Data Science.
-
-On a personal note, my family, consisting of two members, has had the pleasure of visiting Europe twice. We fell in love with the weather and the overall quality of life, making the prospect of working with Wolt even more exciting.
-
+#AgenticAI #AI #MachineLearning #DataScience #Programming #Data #EnterpriseAI
 }
 ------------------------------------------------------------------------------------------------
 
-sample ={
+sample =
+The below is a sample cover letter for Zalando 
+{
 
 Dear Hiring Manager,
 
@@ -111,14 +114,13 @@ As an AI & Machine Learning Engineer with 12 years of experience, I specialize i
 
 I also bring hands-on expertise in optimizing ML workflows—something that directly aligns with Zalando's need for operational excellence in AI systems. Working closely with applied scientists, I’ve fine-tuned training times and serving latencies, ensuring that our ML models are both highly accurate and production-ready. Additionally, my experience with Kubernetes and CI/CD pipelines allows me to manage end-to-end engineering solutions, just as your team requires.
 
-Why Zalando Interests Me:
+Why <Company> Interests Me:
 Zalando’s focus on merging cutting-edge data insights with fashion and lifestyle marketing is something I find incredibly inspiring. I am particularly drawn to your mission to seamlessly engage millions of active customers through personalized and data-infused campaigns. The opportunity to work on your real-time recommendation systems and ad tech platform excites me, especially in a role where I can collaborate with both applied scientists and engineers to drive innovation in marketing.
 
 Furthermore, Zalando's inclusive culture and commitment to diversity align with my personal values. Your flexible working options and the emphasis on employee well-being are also key aspects that make Zalando a particularly attractive place to grow my career.
 
 Closing:
 I am enthusiastic about the prospect of contributing to Zalando’s next-generation AI-driven marketing solutions. I would love the opportunity to discuss how my background, particularly in scaling ML systems and collaborating with cross-functional teams, can contribute to your goals.
-
 Thank you for considering my application. I look forward to hearing from you!
 }
 

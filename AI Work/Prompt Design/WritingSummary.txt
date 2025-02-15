@@ -1,25 +1,118 @@
-I have always had a passion for data and playing with numbers since childhood. I excelled in basic stats, outpacing my peers in calculations, and even managed scoreboards during our play sessions back in the day.
 
-In modern times, there is a significant emphasis on data and AI as a valuable asset. We discuss coupling it with modern processing systems to solve problems. We've come a long way in Machine learning in last decade , transitioning from classical ML to more sophisticated (dare I say) models , the metrics and selling points have surely changed.
+------------------------------------------------------------------------------------------------
+MyProfile ={
+ROHIT JISHTU 
+AI & Machine Learning
+Hyderabad, India • +91-81423-92758 
+jishtu.rohit@gmail.com • linkedin.com/in/rohit-jishtu • https://github.com/RohitJishtu/Projects
 
-Apart from being a AI enthusiast, I specialise in building scalable ML & data pipelines systems for prediction systems, which form the backbone of modern Enterprise Analytics solutions. I design and deploy Machine Learning systems capable of handling large volumes of transactions, making me an asset to my organisation for solving any data-related challenges. 
+13-years IT veteran with expertise in data pipelines, ML orchestration, and AI-driven solutions. Recognized for innovations in AI, lead prioritization, churn prediction, and product recommendations. Passionate about programming, SQL, and leading AI/ML teams to drive and build strategic initiatives and foster innovation.
+SKILLS & OTHER
+ML & AI: Python, PySpark, Statistics, Machine Learning Algorithms, NLP, Deep Learning (PyTorch, TensorFlow), LLMs, Generative AI, Multi-modal AI, Distributed Systems
+Agentic AI Skills: Autonomous Decision-Making, Multi-Agent Systems, Knowledge Representation (RAG, Knowledge Graphs),
+Platforms & Tools: Snowflake, Azure ML, AWS, GCP, Databricks, Kubernetes, Docker, Vertex AI, Hugging Face, Power BI, Airflow
+Others: Data Warehousing, MLOps (MLflow, Kubeflow), SQL, Explainable AI (Fiddler, SHAP), Feature Engineering, Real-time Data Pipelines
+KEY PROJECTS
 
-Recent years I have focused my attention on learning how to design scalable AI systems or Agentic AI systems , how do we leverage the AI infrastrurte to solve problems , speed up the answers and make an impact for organisation.
+SalesEdge AI : Designed and implemented a CrewAI-powered platform to equip sales teams with AI-generated battle cards, personalized insights, and deal acceleration tools, optimizing engagement for 250k+ key contacts and shortening sales cycles.
+AI Feature Hub: Driving the evolution of Feature Hub by integrating LLM and RAG-based methods to create advanced AI features. Managing a massive feature store with over 50k features derived from 1000 tables and 100 data sources, processing terabytes of data for data researchers.
+Lead Prioritisation : Pioneered and implemented an organization-wide lead scoring system for 5m leads , driving a $170 million revenue increase and achieving a 400% boost in lead-to-deal conversion.
+Customer Churn : Achieved a 20% reduction in customer churn for subscription services through our ML solution, saving millions by leveraging usage data. The current model boasts an impressive 80% precision and 70% recall.
+Product Recommendations : Optimized product SKU recommendations, resulting in a 10X increase in product adoption and a substantial ~$80 million revenue boost through improved sales, purchasing, and marketing strategies.
+Chat Bot Analyser: Engineered and deployed Transloom Insights, an agentic cloud-based Python app with a Streamlit interface, empowering dynamic business queries, real-time output evaluation for speed, relevance, and compliance, achieving 100 MAUs within a week and catalyzing its transformation into AI Data Agent with leadership accolades.
+EDUCATION
 
-My love for programming has flourished in the latter part of my career, leading to improved problem-solving skills , programming landscape has evolved for the good , but people's(include me) problem solving skills seems to have stayed saturated with fixed mindset and infirmation availability. I try to read more and not get caught in catching uo mindlessly with AI banter.
+Himachal Pradesh University, Shimla, IN	2011
+Bachelor of Technology, Information Technology
+PROFESSIONAL EXPERIENCE
 
-I am enthusiastic about reading and writing(amateur) and have been leading the Book Club in my current Org, It requires a lot of effort to write and I believe it’s our responsibility to keep the raw art of reading alive, let’s not let AI influence our judgement for now.
+Staff ML Engineer - Enterprise AI - Service Now , Hyderabad, IN 	  2018 – Present
+Daily responsibilities include coding, query optimization, data cleaning, and developing DL/ML models. Success involves model deployment and stakeholder approval, while challenges arise in ensuring data quality.
+Specializing in ML Model deployments and real time solutions using Azure ML , Kuberenetes , Docker & Databricks.
+Diving into Deep Learning , NLP and Transformers to devise solutions with advanced Data Science techniques.
+Leading the mentorship group for junior engineers , creating a culture for talent to flourish.
+ML Data Engineer - Accenture, Pune, IN	2014 – 2017
+Spearheaded a Data Modeling team on SAP HANA , we were trying to model SAP Finance and supply chain raw data to meaningful APIs for a US O&G major. Most of the day went into writing SQL and refining the data model , tuning the code to  write the most efficient SQL Solution , and building my SQL muscles quite a bit.
+Data Engineer and Analyst - Tech Mahindra, Bhubaneshwar, IN	2012 – 2014
+This entry-level job provided training in Data Warehousing and BI, where I worked with a US customer generating SAP Business Objects  reports. Seeing the backend data model for the first time made me realize what I wanted to do
 
-#AgenticAI #AI #MachineLearning #DataScience #ArtificialIntelligence #Programming #ResearchAndDevelopment 
-#EnterpriseAI
+CERTIFICATION DETAILS 
+Multi AI Agent Systems with crewAI, Data Storytelling, Data Structures & Algorithms , Feature Engineering, Product Management, Databricks ML Development & Snowflake RAG Models & Implementation.
+
+}
+
+Q: Do you have experience building E2E data pipelines for Gen AI workflows? Briefly describe and give some sample use cases.
+
+A: Yes, I have extensive experience building end-to-end data pipelines for Generative AI workflows. My expertise includes data extraction, transformation, storage, and orchestration for both training and inference pipelines.
+
+Sample Use Cases:
+
+SalesEdge AI: Designed an AI-powered platform to generate battle cards and personalized insights for sales teams. This involved building data pipelines for processing terabytes of contact data and integrating insights into a real-time system, driving sales acceleration.
+
+AI Feature Hub: Developed a feature store managing over 50,000 features derived from 1000 tables and 100 data sources. Integrated LLM and RAG-based methods to process large-scale data for advanced feature engineering.
+
+Lead Prioritization: Created data pipelines for ingesting, cleaning, and scoring 5 million leads, enabling real-time prioritization and significantly boosting conversion rates.
+
+Q: Which of the following Gen AI usage patterns can you discuss in detail in terms of the typical data pipelines used - regular inferencing, inferencing with RAG, real-time inferencing, training a model, fine-tuning a model? Is there anything not covered in this list that you have built data pipeline for?
+
+A:I can discuss in detail the typical data pipelines for:
+
+Regular Inferencing: Built pipelines for deploying pre-trained models, focusing on efficient data preprocessing and model inference.
+Inferencing with RAG: Created pipelines integrating vector databases like Elasticsearch with LLMs to enhance retrieval-augmented generation.
+Real-time Inferencing: Designed low-latency pipelines using GCP/Azure and Kubernetes for real-time ML predictions.
+
+Training a Model: Developed distributed training pipelines using PyTorch, ensuring scalable preprocessing and model training.
+Fine-tuning a Model: Automated data preparation and hyperparameter tuning for adapting LLMs to domain-specific needs.
+Additional Experience:
+
+Designed pipelines for explainable AI models using SHAP and Fiddler, enabling stakeholders to interpret predictions effectively.
+Implemented data pipelines for monitoring and maintaining AI/ML models in production using MLOps platforms like MLflow and Kubeflow.
 
 
-"Leading projects and mentoring new recruits, fostering a culture that nurtures talent, and leveraging technologies such as Azure ML, Kubernetes, Docker, and Databricks.
+Q: Among the usage patterns covered in Q2, which ones in your opinion do NOT necessarily require analytical data stores (i.e., lakehouses like Databricks, warehouses like Snowflake) and why?
+A:Regular Inferencing and Real-time Inferencing do not necessarily require analytical data stores. These workflows focus on deploying and querying models in a lightweight manner, often relying on in-memory operations or operational databases.
+Inferencing with RAG, however, typically requires integration with vector databases rather than analytical stores for optimized retrieval.
+Training a Model and Fine-tuning a Model benefit significantly from analytical stores to efficiently query, preprocess, and manage large datasets, especially in distributed environments.
 
-Writing production-grade code, optimizing queries, and cleaning data, followed by researching, developing, and deploying machine learning solutions utilizing deep learning, NLP, and transformers.
+Q: Upcoming availability?
+A:I am available for discussions or engagements starting (immediately or within a week). My schedule is flexible to accommodate urgent requirements.
 
-Deploying models into production and securing stakeholder approvals on successful outcomes.
 
-Serving as the 'First Line of Defense' in addressing data quality issues, ensuring the reliability and robustness of data pipelines during high-pressure periods.
 
-Technologies: Python, SQL, Azure ML, Kubernetes, Docker, Databricks, PyTorch, Scikit-learn, Snowflake, MLOps, NLP, Transformers, A/B Testing, Hugging Face, Elasticsearch, CI/CD pipelines."
+Q: What LLMOps and DevOps tools do you use, or have evaluated that you can speak to?
+
+    For LLMOps, I have used use platforms like MLflow (within Databricks and outside) and AZure Ml Studio for managing machine learning lifecycle operations. These tools help in versioning models, managing experiments, and deploying models into production.
+
+    DevOps tools such as Docker and Kubernetes are crucial for containerization and orchestration, ensuring scalability and efficiency in deploying AI applications.
+
+
+Q: Do you have insights on the emerging DevOps and LLMOps needs for scaling GenAI applications and which players have more potential to win in this space?
+
+    Key Needs for LLMOps in Scaling GenAI Applications:
+
+    Model Lifecycle Management: Simplify versioning, fine-tuning, and deployment for LLMs.
+    Efficient Infrastructure Scaling: Automate provisioning of compute resources (e.g., GPUs, TPUs) to handle high workloads.
+    Data Pipeline Automation: Ensure access to clean, real-time data for training and inferencing.
+    Monitoring and Observability: Track model performance, latency, and cost efficiency in real-time.
+    Security and Compliance: Protect sensitive data and comply with regulations like GDPR or HIPAA.
+
+    I beleibe the following are in stringest position to win the race in enterprise solutioning , I have good exposure to Azure 
+
+    Microsoft Azure: Comprehensive integration with Azure ML Studio, Kubernetes, and support for enterprise-scale DevOps.
+    Google Cloud Platform (GCP): Strong in AI/ML with Vertex AI, TPU offerings, and BigQuery for data processing.
+    AWS: Dominates in GPU/TPU instances and SageMaker's rich MLOps features.
+
+    DevOps & MLOps Platforms:
+    Databricks: Excels in unified data and AI pipelines with its Lakehouse architecture and support for distributed training.
+
+Q: If there were a platform that addresses the end-to-end needs of data engineers, AI/ML engineers, and AI app developers in the GenAI app development process, what would be the top 3 capabilities that platform must excel at?
+
+    Streamlined Model Lifecycle Management:
+    The platform should make it easy to manage everything from model versioning to fine-tuning and deployment. It should allow smooth tracking of experiments and quick rollbacks if something goes wrong, so teams can focus on improving models without worrying about the process.
+
+    Automated Data Pipeline Integration:
+    Data is at the heart of AI/ML, and the platform should help integrate and manage large-scale data effortlessly. It should automate data ingestion, cleaning, and transformation, ensuring that both training and real-time inference have the freshest and most relevant data available.
+
+    Flexible and Scalable Infrastructure:
+    GenAI models require significant compute power, so a platform should help manage resources like GPUs or TPUs, scaling up or down as needed. It should also make it easy to control costs while ensuring performance, allowing teams to focus on building and deploying models without infrastructure headaches.
+
