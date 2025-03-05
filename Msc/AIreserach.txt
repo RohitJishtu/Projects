@@ -73,3 +73,9 @@ Dashboarding/UI -  20%
 Describe the impact you have had on the company and customers of your current or most recent role?*
 
 Give an example of an ML project that you led. Specify what parts of this you did by yourself*
+
+
+1: Are you involved in post-training models that require mechanistic interpretability or model steering?
+2: Are you actively involved in the model steering or mechanistic interpretability process at current or prior companies in some capacity?
+3: Rate your familiarity on 1-5 with Goodfire, Dmodel
+4: What is your availability and rate?
