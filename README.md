@@ -28,7 +28,6 @@ I specialize in building scalable data pipelines and end-to-end machine learning
 - [Natural Language Processing](./DL%20Projects/NLP) - Text analysis and processing techniques
 
 ### Miscellaneous Resources
-- [Coding Problems & Solutions](./Coding%20problems%20%26%20Solution) - Algorithm implementations and optimizations
 - [Reusable Statistical Functions](./StatsFunctions) - Helper libraries for data analysis
 - [Prompt Engineering Work](./AI%20Work/Prompt%20Design) - Techniques for effective LLM prompting
 
